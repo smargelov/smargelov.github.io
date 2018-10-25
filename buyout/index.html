@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/libs.min.css">
-    <link rel="stylesheet" href="css/main.min.css?v0.3">
+    <link rel="stylesheet" href="css/main.min.css?v0.99">
     <title>Срочный выкуп спецтехники</title>
 </head>
 
@@ -16,23 +16,40 @@
 
         <!-- begin head -->
         <div class="head">
-            <h1 class="site-title">Срочный выкуп спецтехники<span> в Брянске, Орле, Смоленске</span></h1>
-            <div class="callme"><a href="#">Заказать звонок</a></div>
+            <div class="site-title">Срочный выкуп спецтехники<span> в Брянске, Орле, Смоленске</span></div>
+            <div class="callme callme-btn"><a href="#">Заказать звонок</a></div>
             <address>
-                <div class="phone">8 920-848-88-87</div>
+                <div class="phone"><a href="tel:+79208488887">8 920-848-88-87</a></div>
                 <div class="street">Ул. Советская, д. 38</div>
             </address>
+            <div class="mob-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <p>
+                    Меню
+                </p>
+            </div>
         </div>
         <!-- end head -->
 
         <!-- begin nav -->
-        <nav>
+        <nav id="nav">
             <ul class="top-nav">
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Техника</a></li>
-                <li><a href="#">Новости/Статьи</a></li>
-                <li><a href="#">Узнать цену</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="index.html">Главная</a></li>
+                <li class="sub"><a href="#">Техника <span></span></a>
+                    <ul class="submenu">
+                        <li><a href="technics.html">Всякая там техника</a></li>
+                        <li><a href="technics.html">Всякая там техника</a></li>
+                        <li><a href="technics.html">Всякая там техника</a></li>
+                        <li><a href="technics.html">Всякая там техника</a></li>
+                        <li><a href="technics.html">Всякая там техника</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Новости/Статьи</a></li>
+                <li><a href="price.html">Узнать цену</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
             </ul>
         </nav>
         <!-- end nav -->
@@ -50,7 +67,7 @@
     </div>
     <!-- end slider -->
 
-
+    <div class="slider-bg"></div>
     <section class="main">
 
         <!-- begin about-block -->
@@ -165,63 +182,84 @@
                 <span>Процесс выкупа</span> спецтехники
             </h3>
             <div class="process-box" id="process-box">
-                <div class="step step-1">
-                    <div class="first-view">
-                        <p>Вы нам звоните или заполняете заявку на звонок</p>
-                    </div>
-                    <div class="second-view">
-                        <h5 class="second-view-title">Мы связываемся с вами </h5>
-                        <p>Если вы заполнили заявку на сайте – мы свяжемся с вами в течение 30 минут максимум в рабочее время –
-                            или укажите в комментариях удобный для вас интервал для обратного звонка</p>
-                        <button>Связаться</button>
-                    </div>
-                </div>
-                <div class="step step-2">
-                    <div class="first-view">
-                        <p>Мы связываемся с вами в течение рабочего дня</p>
-                    </div>
-                    <div class="second-view">
-                        <h5 class="second-view-title">Мы связываемся с вами </h5>
-                        <p>Если вы заполнили заявку на сайте – мы свяжемся с вами в течение 30 минут максимум в рабочее время –
-                            или укажите
-                            в комментариях удобный для вас интервал для обратного звонка</p>
-                        <button>Связаться</button>
+                <div class="step step-1" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="first-view">
+                            <div class="img">
+                                <img src="img/phoneme.png" alt="Позвоните нам">
+                            </div>
+                            <p>Вы нам звоните или заполняете заявку на звонок</p>
+                        </div>
+                        <div class="second-view">
+                            <h5 class="second-view-title">Мы связываемся с вами </h5>
+                            <p>Если вы заполнили заявку на сайте – мы свяжемся с вами в течение 30 минут максимум в рабочее время –
+                                или укажите в комментариях удобный для вас интервал для обратного звонка</p>
+                            <button class="get-me-price">Связаться</button>
+                        </div>
                     </div>
                 </div>
-                <div class="step step-3">
-                    <div class="first-view">
-                        <p>Выбираем удобное время для оценки</p>
-                    </div>
-                    <div class="second-view">
-                        <h5 class="second-view-title">Мы связываемся с вами </h5>
-                        <p>Если вы заполнили заявку на сайте – мы свяжемся с вами в течение 30 минут максимум в рабочее время –
-                            или укажите
-                            в комментариях удобный для вас интервал для обратного звонка</p>
-                        <button>Связаться</button>
-                    </div>
-                </div>
-                <div class="step step-4">
-                    <div class="first-view">
-                        <p>Встречаемся и осматриваем технику</p>
-                    </div>
-                    <div class="second-view">
-                        <h5 class="second-view-title">Мы связываемся с вами </h5>
-                        <p>Если вы заполнили заявку на сайте – мы свяжемся с вами в течение 30 минут максимум в рабочее время –
-                            или укажите
-                            в комментариях удобный для вас интервал для обратного звонка</p>
-                        <button>Связаться</button>
+                <div class="step step-2" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="first-view">
+                            <div class="img">
+                                <img src="img/rephone.png" alt="Мы перезвоним">
+                            </div>
+                            <p>Мы связываемся с вами в течение рабочего дня</p>
+                        </div>
+                        <div class="second-view">
+                            <h5 class="second-view-title">Мы связываемся с вами </h5>
+                            <p>Если вы заполнили заявку на сайте – мы свяжемся с вами в течение 30 минут максимум в рабочее время –
+                                или укажите в комментариях удобный для вас интервал для обратного звонка</p>
+                            <button class="get-me-price">Связаться</button>
+                        </div>
                     </div>
                 </div>
-                <div class="step step-5">
-                    <div class="first-view">
-                        <p>Выкупаем ваше авто</p>
+                <div class="step step-3" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="first-view">
+                            <div class="img">
+                                <img src="img/calendar.png" alt="Подберём дату">
+                            </div>
+                            <p>Выбираем удобное время для оценки</p>
+                        </div>
+                        <div class="second-view">
+                            <h5 class="second-view-title">Мы связываемся с вами </h5>
+                            <p>Если вы заполнили заявку на сайте – мы свяжемся с вами в течение 30 минут максимум в рабочее время –
+                                или укажите в комментариях удобный для вас интервал для обратного звонка</p>
+                            <button class="get-me-price">Связаться</button>
+                        </div>
                     </div>
-                    <div class="second-view">
-                        <h5 class="second-view-title">Мы связываемся с вами </h5>
-                        <p>Если вы заполнили заявку на сайте – мы свяжемся с вами в течение 30 минут максимум в рабочее время –
-                            или укажите
-                            в комментариях удобный для вас интервал для обратного звонка</p>
-                        <button>Связаться</button>
+                </div>
+                <div class="step step-4" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="first-view">
+                            <div class="img">
+                                <img src="img/find-gear.png" alt="Осмотрим технику">
+                            </div>
+                            <p>Встречаемся и осматриваем технику</p>
+                        </div>
+                        <div class="second-view">
+                            <h5 class="second-view-title">Мы связываемся с вами </h5>
+                            <p>Если вы заполнили заявку на сайте – мы свяжемся с вами в течение 30 минут максимум в рабочее время –
+                                или укажите в комментариях удобный для вас интервал для обратного звонка</p>
+                            <button class="get-me-price">Связаться</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="step step-5" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="first-view">
+                            <div class="img">
+                                <img src="img/money-trak.png" alt="Заплатим">
+                            </div>
+                            <p>Выкупаем ваше авто</p>
+                        </div>
+                        <div class="second-view">
+                            <h5 class="second-view-title">Мы связываемся с вами </h5>
+                            <p>Если вы заполнили заявку на сайте – мы свяжемся с вами в течение 30 минут максимум в рабочее время –
+                                или укажите в комментариях удобный для вас интервал для обратного звонка</p>
+                            <button class="get-me-price">Связаться</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -263,25 +301,75 @@
     <footer class="footer">
         <nav>
             <ul class="footer-nav">
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Техника</a></li>
-                <li><a href="#">Новости / Статьи</a></li>
-                <li><a href="#">Узнать цену</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="index.html">Главная</a></li>
+                <li class="sub"><a href="">Техника <span></span></a>
+                    <ul class="submenu">
+                        <li><a href="technics.html">Всякая там техника</a></li>
+                        <li><a href="technics.html">Всякая там техника</a></li>
+                        <li><a href="technics.html">Всякая там техника</a></li>
+                        <li><a href="technics.html">Всякая там техника</a></li>
+                        <li><a href="technics.html">Всякая там техника</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Новости/Статьи</a></li>
+                <li><a href="price.html">Узнать цену</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
             </ul>
         </nav>
 
         <div class="footer-info">
-            <p class="site-title">Срочный выкуп спецтехники<span> в Брянске, Орле, Смоленске</span></p>
-            <div class="callme"><a href="#">Заказать звонок</a></div>
+            <div class="site-title">Срочный выкуп спецтехники<span> в Брянске, Орле, Смоленске</span></div>
+            <div class="wrap">
+                <div class="callme callme-btn"><span>Заказать звонок</span></div>
+            </div>
             <address>
-                <div class="phone">8 920-848-88-87</div>
+                <div class="phone"><a href="tel:+79208488887">8 920-848-88-87</a></div>
                 <div class="street">Ул. Советская, д. 38</div>
             </address>
         </div>
+        <div class="copy">Создание сайта - <a href="#" target="_blank">Студия WebSun</a></div>
     </footer>
+
+    <!-- begin modal windows -->
+    <div class="modal recall">
+        <div class="wrap">
+            <h3 class="recall-title"><span>Обратный</span> звонок</h3>
+            <form action="">
+                <input type="text" id="name" placeholder="*ФИО" required>
+                <input type="text" id="phone" placeholder="*Телефон/почта" required>
+                <input type="submit" value="Отправить">
+                <div class="close"></div>
+            </form>
+        </div>
+    </div>
+    <div class="modal get-price">
+        <div class="wrap">
+            <h3 class="get-price-title"><span>Обратный</span> звонок</h3>
+            <form action="">
+                <input type="text" id="name" placeholder="*ФИО" required>
+                <input type="text" id="phone" placeholder="*Телефон/почта" required>
+                <div class="form-select">
+                    <select name="select" id="">
+                        <option value="" selected hidden disabled>Какая техника</option>
+                        <option value="excavator">Экскаваторы</option>
+                        <option value="loader">Погрузчик</option>
+                        <option value="dump-truck">Самосвал</option>
+                        <option value="concrete-mixer">Бетономешалка</option>
+                        <option value="chassis">Грузовое шасси</option>
+                        <option value="other">Другое</option>
+                    </select>
+                </div>
+                <textarea id="comment" placeholder="Ваш комментарий"></textarea>
+                <input type="submit" value="Отправить">
+                <div class="close"></div>
+            </form>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <!-- end modal windows -->
+
     <script src="js/libs.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/main.js?v0.99"></script>
     <script>
 
     </script>
