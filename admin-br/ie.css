@@ -1,0 +1,14 @@
+body{
+	background: #ccc url(images/bg-body.png);
+}
+
+.box {
+	background: #ccc;
+}
+.news-box .time {
+	background: #fff;
+}
+
+.footer-bottom {
+	background: #353535;
+}

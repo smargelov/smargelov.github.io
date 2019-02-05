@@ -1,0 +1,426 @@
+/*  
+Theme Name: Margelov-or-Bryansk (admin.bryansk.ru only)
+Theme URI: http://smargelov.ru
+Description: Тема, разработанная специально для сайта администрации города Брянска. Использолвание на любых других сайтах не допускается.
+Author: smargelov
+Author URI: http://www.smargelov.com
+*/
+
+/* Подключаем файл reset.css Эрика Майера */
+@import "reset.css";
+
+body {
+	background: url(images/bg-flag.png) no-repeat 50% 130px, url(images/bg-head.png) repeat-x, #ccc url(images/bg-body.png) repeat; 
+	color: #000;
+	font: 14px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.clear {
+	clear:both;
+}
+#main {
+	width: 1000px;
+	margin: 0 auto;
+}
+p{
+	margin-bottom: 10px;
+}
+.box {
+	margin-bottom: 15px;
+	background: rgba(204, 204, 204, 0.9);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 3px 5px 7px rgba(0,0,0,.5), inset -8px -8px 13px rgba(0,0,0,.18);
+	-moz-box-shadow: 3px 5px 7px rgba(0,0,0,.5), inset -8px -8px 13px rgba(0,0,0,.18);
+	box-shadow: 3px 5px 7px rgba(0,0,0,.5), inset -8px -8px 13px rgba(0,0,0,.18);
+}
+img.alignleft {
+	float: left;
+	margin: 0 15px 5px 0;
+}
+img.alignright {
+	float: right;
+	margin: 0 0 5px 15px;
+}
+#logo-head {
+	width: 1000px;
+	height: 200px;
+	background: url(images/logo1.png) no-repeat;
+	position: relative;
+}
+.logo {
+	position: absolute;
+	left: 170px;
+	top: 30px;
+	cursor:pointer;
+}
+.logo img {
+	float: left;
+	margin-right: 10px;
+}
+.logo {
+	width: 350px;
+}
+.title1 {
+	font-size: 23px;
+	text-transform: uppercase;
+}
+.title2 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+#logo-head .logo p {
+	margin-bottom: 0;
+	line-height: 25px;
+}
+/*Меню*/
+#nav, #nav ul{
+	background-color: #ccc;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 2px 7px rgba(0,0,0,.52), inset -1px -5px 8px rgba(255,255,255,.65);
+	-moz-box-shadow: 0 2px 7px rgba(0,0,0,.52), inset -1px -5px 8px rgba(255,255,255,.65);
+	box-shadow: 0 2px 7px rgba(0,0,0,.52), inset -1px -5px 8px rgba(255,255,255,.65);
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height:40px;
+	
+}
+#nav{
+	width: 1000px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+#nav li{
+	float:left;
+	position:relative;
+	padding: 0 18px 0;
+	border-left: 1px solid #666;
+}
+#nav li li, #nav li:first-child {
+	border: none;
+}
+#nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	color: #000;
+}
+#nav a:hover{
+	color: #999 !important;
+}
+#nav ul{
+	background: rgba(204, 204, 204, .7);
+	display:none;
+	position:absolute;
+	top:40px;
+	left:0;
+	z-index: 5;
+}
+#nav ul a{
+	border-top:1px solid #000;
+	width:80%;
+}
+#nav ul li:first-child a{
+	border: none;
+}
+#nav li:hover ul{
+	display:block;
+}
+#nav li.current a {
+	color: #750404;
+}
+/*Меню end*/
+
+#content{
+	float: left;
+	width: 717px;
+	padding-right: 15px;
+}
+.title-page h1{
+	font-size: 25px;
+	padding: 10px 20px;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+	text-align: right;
+}
+.news-box h2 {
+	text-align: right;
+	margin: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #999;
+	font-size: 24px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #999;
+}
+.first-news {
+	margin: 0 auto;
+	width: 300px;
+	position: relative;
+}
+.first-news img {
+	border: 2px double #ccc;
+}
+.news-box .time {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	background: rgba(255, 255, 255, .75);
+	padding: 1px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.news-box ul {
+	margin: 0 0 20px;
+}
+.news-box p {
+	margin: 0 20px 10px;
+	font-size: 16px;
+}
+.news-box a {
+	text-decoration: none;
+	color: #000;
+}
+.news-box .news1 {
+	font-size: 20px !important;
+	font-weight: bold;
+	border-bottom: 2px solid #ddd;
+} 
+#sidebar{
+	float: right;
+	width: 268px;
+}
+.news-box, .dop-box {
+	width: 351px;
+	float: left;
+}
+.left {
+	margin-right: 15px;
+}
+.dop-box {
+	margin-top: 30px;
+}
+.part {
+	float: left;
+	width: 690px;
+	padding: 0 15px 15px 20px;
+}
+.footer-right {
+	overflow: hidden;
+	width: 263px;
+}
+#sidebar h3, .footer-right h4, .part h4{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 5px;
+}
+#sidebar p, #sidebar li, .footer-right p{
+	text-align: center;
+	padding: 0 10px 10px;
+}
+#sidebar img {
+	display: block;
+	border: 2px double #ccc;
+	margin: 0 auto;
+}
+#sidebar .box {
+	padding-bottom: 20px;
+}
+#sidebar .social {
+	padding: 10px 0 10px 25px;
+}
+#sidebar .social img {
+	display: inline;
+	border: none;
+}
+.part img, .puzo img {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#sidebar .search {
+	padding: 15px 0 15px 10px;
+}
+.search .s {
+	width: 180px;
+	font-size: 20px;
+	background-color: #eee;
+	border-radius: 10px;
+	border: inset;
+	overflow: hidden;
+	padding-left: 10px;
+}
+#sidebar .search img {
+	border: none;
+	display: block;
+	float: left;
+	padding: 0
+}
+.dop-box h3 {
+	text-align: center;
+	margin: 5px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.sl-photo, .sl-video {
+	width: 290px;
+	margin: 10px auto;
+}
+.sl-photo img {
+	width: 290px;
+}
+.dop-box p {
+	text-align: right;
+	padding: 0 20px 10px 0;
+}
+.dop-box p a {
+	text-decoration: none;
+	color: #888;
+}
+.dop-box p a:hover {
+	text-decoration: underline;
+}
+.footer-bottom {
+	background: rgba(0, 0, 0, .5);
+	padding: 20px 0 10px 30px;
+	color: #aaa;
+}
+/*Lenta*/
+.prew-header {
+	margin: 10px 20px 5px;
+	font-size: 24px;
+	padding: 15px 10px 15px;
+	border-bottom: 2px solid #9D9895;
+}
+.prew-header h2 {
+	float: left;
+	max-width: 500px;
+}
+.prew-header h2 a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+.prew-header p {
+	float: right;
+	color: #9D9895;
+	padding-left: 10px;
+	border-left: 2px solid #9D9895;
+	margin-bottom: 0;
+}
+.prew-cat {
+	margin-left: 25px;
+	color: #9D9895;
+}
+.prew-cat p a, .page-header p a {
+	text-decoration: none;
+	color: #9D9895;
+}
+.prew-cat p a:hover, .page-header p a:hover {
+	text-decoration: underline;
+}
+.lenta img {
+	float: left;
+	margin: 0 15px 5px 25px;
+	border: 2px double #ccc;
+}
+.lenta .prew-text {
+	margin: 0 25px 10px;
+}
+.prew-footer {
+	margin: 5px 20px 10px;
+	padding: 5px 10px 10px;
+	border-top: 2px solid #9D9895;
+	min-height: 53px;
+}
+.prew-footer a, .page-icon a {
+	display: block;
+	color: #bbb;
+	background: #333;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-radius: 5px;
+	width: 180px;
+	margin-top: 15px;
+}
+.prew-footer a {
+	float: right;	
+}
+.prew-footer a:hover, .page-icon a:hover {
+	background: #111;
+	color: #ddd;
+}
+.prew-icon img {
+	margin: 0 5px 5px 0;
+	border: none;
+}
+/*page*/
+.title-page .post-date {
+	float: left;
+	font-size: 22px;
+	color: #9D9895;
+	padding:12px 20px 12px 20px;
+	margin-bottom: 0;
+	border-right:  2px solid #9D9895;
+	font-weight: bold;
+}
+.page-header {
+	margin: 10px 20px;
+	padding: 15px 10px 0;
+	border-bottom: 2px solid #9D9895;
+	color: #9D9895;
+}
+.page-body {
+	margin: 5px 25px;
+}
+.page-icon {
+	margin: 5px 0 10px 30px;
+}
+.page-icon a {
+	position: relative;
+}
+.page-icon a:after{
+	position: absolute;
+	right:15px;
+	top: -5px;
+}
+.page-icon .photo-but:after{
+	content: url(images/images_at.png);
+}
+.page-icon .video-but:after{
+	content: url(images/video_at.png);
+}
+.page-icon .audio-but:after{
+	content: url(images/music_at.png);
+}
+.page-footer {
+	margin: 30px 25px; 
+	border-top: 2px solid #9D9895;
+}
+.soc-but {
+	margin: 10px 25px 20px;
+	padding-bottom: 25px;
+}
+.soc-but img {
+	display: block;
+	margin: 0 auto;
+}
+.previ {
+	float: left;	
+}
+.next {
+	float: right;
+}
+.navigation div{
+	padding: 10px 20px;
+}
+.navigation a {
+	text-decoration: none;
+	color: #9D9895;
+}
+.navigation a:hover {
+	color: #000;
+}

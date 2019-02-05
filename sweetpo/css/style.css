@@ -1,0 +1,92 @@
+@import url(framework.css);
+@import url(http://fonts.googleapis.com/css?family=Oranienbaum&subset=latin,cyrillic-ext,cyrillic,latin-ext);
+
+
+body {
+	padding: 20px 0 0;
+	font-family: 'Oranienbaum', serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000;
+}
+a {
+	color: #c87137;
+}
+a:hover, a:focus {
+	color: #c4660b;
+	text-decoration: none;
+}
+h1, .h1 {
+	font-family: 'Times New Roman', serif;
+}
+h2, .h2, h3, .h3, h4, .h4{
+	font-family: 'Oranienbaum', serif;
+}
+a h1, a h2, a h3, a h4, a h5, a h6 {
+	text-decoration: none;
+}
+p, ul, ol, dl, blockquote, address, pre, hr, .hr, h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+	margin-bottom: 20px;
+}
+.m-center {
+	text-align: center;
+}
+.m-right {
+	text-align: right;
+}
+
+/*Header*/
+
+.site-name-img {
+	text-align: right;
+}
+
+/*Navigation*/
+.nav {
+	margin-top: 60px;
+}
+.nav li {
+	padding: 2px 35px;
+	border-left: 2px solid #885a2d;
+	margin-right: 0;
+}
+.nav li:first-child {
+	padding-left: 0;
+	border-left: none;
+}
+.nav li a {
+	color: #885a2d;
+	font-size: 32px;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+}
+.nav li a:hover, .nav li a:focus {
+	color: #AD6A2A;
+	text-decoration: underline;
+}
+
+/*Content*/
+
+.content {
+	padding: 20px 0;
+}
+
+/*Footer*/
+
+.footer > .g-12 > .g-row:last-child {
+	margin: 0;
+}
+.phones {
+	font-size: 28px;
+	line-height: 32px;
+}
+.phones span {
+	font-size: 18px;
+}
+.phones img {
+	display:inline-block; 
+	vertical-align:middle;
+}
+.author {
+	color #808080;
+	font-size: 14px;
+}

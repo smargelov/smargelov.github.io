@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="slideStyle.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Документ без названия</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" ></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.3/jquery-ui.min.js" ></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);
+	});
+</script>
+</head>
+
+<body>
+<div id="featured" >  
+    <ul class="ui-tabs-nav">  
+        <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-1"><a href="#fragment-1"><p class="date-item">
+            20.06.12<p>Конструктивный показ баннера</p>
+        </p></a></li>  
+        <li class="ui-tabs-nav-item" id="nav-fragment-2"><a href="#fragment-2"><p class="date-item">
+            20.06.12<p>Коллективный код: компульсивность или идентификация</p>
+        </p></a></li>  
+        <li class="ui-tabs-nav-item" id="nav-fragment-3"><a href="#fragment-3"><p class="date-item">
+            20.06.12<p>35 Amazing Logo Designs</p>
+        </p></a></li>  
+        <li class="ui-tabs-nav-item" id="nav-fragment-2"><a href="#fragment-4"><p class="date-item">
+            19.06.12<p>Коллективный код: компульсивность или идентификация</p>
+        </p></a></li> 
+    </ul>  
+    <!-- First Content -->  
+    <div id="fragment-1" class="ui-tabs-panel" style="">  
+        <a href="#"><img src="img/slider1.png" alt="" /></a>  
+        <div class="info" >  
+        <p><a href="#" >(20.06.12)</a></p>  
+        <h2><a href="#" >Конструктивный показ баннера</a></h2>  
+        </div>  
+    </div>  
+    <!-- Second Content -->  
+    <div id="fragment-2" class="ui-tabs-panel ui-tabs-hide" style="">  
+        <a href="#"><img src="img/slider2.png" alt="" /></a>  
+        <div class="info" >  
+        <p><a href="#" >(20.06.12)</a></p>  
+        <h2><a href="#" >Коллективный код: компульсивность или идентификация Коллективный код: компульсивность или</a></h2>  
+        </div>  
+    </div>  
+    <!-- Third Content -->  
+    <div id="fragment-3" class="ui-tabs-panel ui-tabs-hide" style="">  
+        <a href="#"><img src="img/slider3.png" alt="" /></a>  
+        <div class="info" >  
+        <p><a href="#" >(20.06.12)</a></p>
+        <h2><a href="#" >Конституционный обычай делового оборота: гипотеза и теории</a></h2>  
+        </div>  
+    </div>  
+    <!-- Four Content -->  
+    <div id="fragment-4" class="ui-tabs-panel ui-tabs-hide" style="">  
+        <a href="#"><img src="img/slider4.jpg" alt="" /></a>  
+        <div class="info" >  
+        <p><a href="#" >(19.06.12)</a></p> 
+        <h2><a href="#" >Коллективный код: компульсивность или идентификация</a></h2>   
+        </div>  
+    </div>  
+</div>  
+
+</div>
+</body>
+</html>
