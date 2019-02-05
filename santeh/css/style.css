@@ -1,0 +1,119 @@
+@import "../font/kurier.css";
+@import "../font/modernh.css";
+@import "whhg.css";
+
+body {
+	background: url(../img/bg-grey.png);
+}
+p, .content li {
+	font-size: 20px;
+	line-height: 28px;
+	color:#676767;
+}
+.name, .content h2, h3 {
+	font-family: 'kurier-bold', Helvetica, Arial, sans-serif;
+}
+.name h1 {
+	color: #353535;
+	text-shadow: 0 0 3px rgba(90, 90, 90, 0.5);
+	font-size: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.name h1 span {
+	color: #7C7C7C;
+	letter-spacing: 2px;
+}
+.name h2 {
+	color: #8E8E8E;
+	text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.nav {
+	margin-top: 35px;
+	font-size: 16px;
+	text-align: right;
+	font-family: 'modern_h_boldregular', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+}
+.nav a i {
+	margin-left: 20px;
+}
+.nav-tabs > li > a, .nav-pills > li > a {
+    padding-right: 30px;
+}
+.nav-tabs a {
+    background-color: #999;
+    color: #ddd;
+}
+.nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+    background: #bbb;
+    color: #fff;
+}
+.main {
+	padding-left: 30px;
+}
+.content h2 {
+	color: #6F6F6F;
+	font-size: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0 0 3px rgba(90, 90, 90, 0.5);
+}
+.content h2 i {
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.block {
+	margin: 20px 0 40px;
+}
+.content img.pull-left {
+	margin:0 20px 5px 0;
+}
+.content img.pull-right {
+	margin:0 0 5px 20px;
+}
+.phone {
+	font-size: 35px;
+	color:#2E2E2E;
+	text-align: center;
+	margin: 20px auto;
+}
+.footer {
+	border-top: 1px solid #999;
+}
+.footer p {
+	font-size: 16px;
+	color: #999;
+}
+.footer a {
+	color: #677EAA;
+}
+.logo-min{
+	position: relative;
+}
+.logo-min:before {
+	content: "";
+	display:block;
+	height:65px;
+	width:65px;
+	background: url(../img/logo.png);
+	background-repeat: none;
+	background-size: 65px;
+	position: absolute;
+	left: -100px;
+}
+.name h1.logo-min {
+	text-align: left;
+	margin-left: 100px;
+}
+input, textarea {
+	width: 80%;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .nav a i, .phone img {
+    display: none !important ;
+  }
+}

@@ -1,0 +1,193 @@
+
+@font-face {
+    font-family: 'kurier-bold';
+    src: url('kurier-bold.eot');
+    src: url('kurier-bold.eot?#iefix') format('embedded-opentype'),
+         url('kurier-bold.woff') format('woff'),
+         url('kurier-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kurier-bolditalic';
+    src: url('kurier-bolditalic.eot');
+    src: url('kurier-bolditalic.eot?#iefix') format('embedded-opentype'),
+         url('kurier-bolditalic.woff') format('woff'),
+         url('kurier-bolditalic.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'kuriercond-bold';
+    src: url('kuriercond-bold.eot');
+    src: url('kuriercond-bold.eot?#iefix') format('embedded-opentype'),
+         url('kuriercond-bold.woff') format('woff'),
+         url('kuriercond-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kuriercond-bolditalic';
+    src: url('kuriercond-bolditalic.eot');
+    src: url('kuriercond-bolditalic.eot?#iefix') format('embedded-opentype'),
+         url('kuriercond-bolditalic.woff') format('woff'),
+         url('kuriercond-bolditalic.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'kuriercondheavy-italic';
+    src: url('kuriercondheavy-italic.eot');
+    src: url('kuriercondheavy-italic.eot?#iefix') format('embedded-opentype'),
+         url('kuriercondheavy-italic.woff') format('woff'),
+         url('kuriercondheavy-italic.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'kuriercondheavy-regular';
+    src: url('kuriercondheavy-regular.eot');
+    src: url('kuriercondheavy-regular.eot?#iefix') format('embedded-opentype'),
+         url('kuriercondheavy-regular.woff') format('woff'),
+         url('kuriercondheavy-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kuriercond-italic';
+    src: url('kuriercond-italic.eot');
+    src: url('kuriercond-italic.eot?#iefix') format('embedded-opentype'),
+         url('kuriercond-italic.woff') format('woff'),
+         url('kuriercond-italic.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'kuriercondlight-italic';
+    src: url('kuriercondlight-italic.eot');
+    src: url('kuriercondlight-italic.eot?#iefix') format('embedded-opentype'),
+         url('kuriercondlight-italic.woff') format('woff'),
+         url('kuriercondlight-italic.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'kuriercondlight-regular';
+    src: url('kuriercondlight-regular.eot');
+    src: url('kuriercondlight-regular.eot?#iefix') format('embedded-opentype'),
+         url('kuriercondlight-regular.woff') format('woff'),
+         url('kuriercondlight-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kuriercondmedium-italic';
+    src: url('kuriercondmedium-italic.eot');
+    src: url('kuriercondmedium-italic.eot?#iefix') format('embedded-opentype'),
+         url('kuriercondmedium-italic.woff') format('woff'),
+         url('kuriercondmedium-italic.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'kuriercondmedium-regular';
+    src: url('kuriercondmedium-regular.eot');
+    src: url('kuriercondmedium-regular.eot?#iefix') format('embedded-opentype'),
+         url('kuriercondmedium-regular.woff') format('woff'),
+         url('kuriercondmedium-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kuriercond-regular';
+    src: url('kuriercond-regular.eot');
+    src: url('kuriercond-regular.eot?#iefix') format('embedded-opentype'),
+         url('kuriercond-regular.woff') format('woff'),
+         url('kuriercond-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kurierheavy-italic';
+    src: url('kurierheavy-italic.eot');
+    src: url('kurierheavy-italic.eot?#iefix') format('embedded-opentype'),
+         url('kurierheavy-italic.woff') format('woff'),
+         url('kurierheavy-italic.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'kurierheavy-regular';
+    src: url('kurierheavy-regular.eot');
+    src: url('kurierheavy-regular.eot?#iefix') format('embedded-opentype'),
+         url('kurierheavy-regular.woff') format('woff'),
+         url('kurierheavy-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kurier-italic';
+    src: url('kurier-italic.eot');
+    src: url('kurier-italic.eot?#iefix') format('embedded-opentype'),
+         url('kurier-italic.woff') format('woff'),
+         url('kurier-italic.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'kurierlight-italic';
+    src: url('kurierlight-italic.eot');
+    src: url('kurierlight-italic.eot?#iefix') format('embedded-opentype'),
+         url('kurierlight-italic.woff') format('woff'),
+         url('kurierlight-italic.ttf') format('truetype');
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: 'kurierlight-regular';
+    src: url('kurierlight-regular.eot');
+    src: url('kurierlight-regular.eot?#iefix') format('embedded-opentype'),
+         url('kurierlight-regular.woff') format('woff'),
+         url('kurierlight-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kuriermedium-italic';
+    src: url('kuriermedium-italic.eot');
+    src: url('kuriermedium-italic.eot?#iefix') format('embedded-opentype'),
+         url('kuriermedium-italic.woff') format('woff'),
+         url('kuriermedium-italic.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'kuriermedium-regular';
+    src: url('kuriermedium-regular.eot');
+    src: url('kuriermedium-regular.eot?#iefix') format('embedded-opentype'),
+         url('kuriermedium-regular.woff') format('woff'),
+         url('kuriermedium-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kurier-regular';
+    src: url('kurier-regular.eot');
+    src: url('kurier-regular.eot?#iefix') format('embedded-opentype'),
+         url('kurier-regular.woff') format('woff'),
+         url('kurier-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
