@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Bryansk3D — студия 3d-печати и моделирования в Брянске</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-row">
+                <div class="logo">
+                    <svg class="logo__img">
+                        <use xlink:href="img/sprite.svg#logo"></use>
+                    </svg>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__top">
+                        <li class="nav__item"><a title="Наши услуги" href="#about">Услуги</a></li>
+                        <li class="nav__item"><a title="Цены на услуги" href="#price">Цены</a></li>
+                        <li class="nav__item"><a title="Примеры наших работ" href="#portfolio">Наши работы</a></li>
+                        <li class="nav__item"><a title="Отвечаем на вопросы" href="#faq">Вопросы-ответы</a></li>
+                        <li class="nav__item"><a title="Как с нами связаться" href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="wrapper">
+            <div class="hero__wrapper">
+                <div class="hero-content">
+                    <h1 class="h1 hero-content__h1">3D-печать на заказ <span>в Брянске</span></h1>
+                    <div class="hero-content__desc">(из готового файла, по чертежу, по тех. заданию, по образцу и т.д.)</div>
+                    <button class="btn hero-content__btn sender" id="hero-print">Заказать печать</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-box" id="about">
+        <div class="wrapper">
+            <h2 class="h2 about-box__h2">Что мы делаем?</h2>
+            <div class="about-items">
+                <div class="about-item">
+                    <div class="about-item__img-box">
+                        <svg class="about-item__img">
+                            <use xlink:href="img/sprite.svg#about1"></use>
+                        </svg>
+                    </div>
+                    <h3 class="h3 about-item__h3">Печатаем</h3>
+                    <div class="about-item__text">
+                        <p>
+                            разных размеров (до 250x250x300), составные сборки и одиночные детали, из готовых файлов или
+                            “вот ссылка на крутой проект в интернете”, разных цветов, из разного пластика (ABS, PLA, PETg)…
+                        </p>
+                        <p>
+                            Звоните, пишите. Решим вашу задачу.
+                        </p>
+                    </div>
+                    <button class="btn about-item__btn sender" id="about-print">Заказать печать</button>
+                </div>
+                <div class="about-item">
+                    <div class="about-item__img-box">
+                        <svg class="about-item__img">
+                            <use xlink:href="img/sprite.svg#about2"></use>
+                        </svg>
+                    </div>
+                    <h3 class="h3 about-item__h3">Моделируем</h3>
+                    <div class="about-item__text">
+                        <p>
+                            модели для дальнейшей печати любой сложности. По чертежам, по замерам, по техническому заданию,
+                            по картинке из интернета, даже по устному описанию.
+                        </p>
+                        <p>
+                            Уверены, мы найдём общий язык.
+                        </p>
+                    </div>
+                    <button class="btn about-item__btn sender" id="about-model">Заказать проектирование</button>
+                </div>
+                <div class="about-item">
+                    <div class="about-item__img-box">
+                        <svg class="about-item__img">
+                            <use xlink:href="img/sprite.svg#about3"></use>
+                        </svg>
+                    </div>
+                    <h3 class="h3 about-item__h3">Помогаем</h3>
+                    <div class="about-item__text">
+                        <p>
+                            выбрать домашний 3D-принтер, заказать его, установить, настроить, запустить. Подскажем где
+                            найти модели. Научим печатать.
+                        </p>
+                        <p>
+                            Только представьте, как будут счастливы выши дети (или мужья).
+                        </p>
+                    </div>
+                    <button class="btn about-item__btn sender" id="about-help">Найти помощника</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="price section--dark" id="price">
+        <div class="wrapper">
+            <h2 class="h2 price__h2">Наши цены</h2>
+            <div class="price-items">
+                <div class="price-item">
+                    <div class="price-item__img-box">
+                        <div class="price-item__img">
+                            <svg class="price-item__img">
+                                <use xlink:href="img/sprite.svg#price1"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="h3 price-item__h3">на печать</h3>
+                    <div class="price-item__num"><strong>10</strong> руб./грамм</div>
+                    <div class="price-item__desc">готового изделия</div>
+                    <div class="price-item__text">
+                        <ul>
+                            <li>- пластик ABS, PLA, PETg</li>
+                            <li>- нет ограничений на минимальный заказ</li>
+                            <li>- скидка при заказе от 2000 рублей (в том числе накопительно) — 10%</li>
+                            <li>- особые условия корпоративным клиентам</li>
+                            <li>- время выполнения от 2-х часов (в зависимости от сложности модели и загруженности
+                                принтеров)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="price-item">
+                    <div class="price-item__img-box">
+                        <div class="price-item__img">
+                            <svg class="price-item__img">
+                                <use xlink:href="img/sprite.svg#price2"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="h3 price-item__h3">на моделирование</h3>
+                    <div class="price-item__num">от <strong>150</strong> руб.</div>
+                    <div class="price-item__desc">за модель</div>
+                    <div class="price-item__text">
+                        <ul>
+                            <li>- при предоставлении качественного чертежа*, скидка на моделирование до 100%** (* — есть
+                                все
+                                размеры, все необходимые виды и т.д. ** — при условии дальнейшей печати модели у нас). Мы
+                                за
+                                повышение технической грамотности :-)</li>
+                            <li>- возможно предоставление готовых 3d-файлов и рендеров</li>
+                            <li>- не только моделируем, но и проектируем</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="price-item">
+                    <div class="price-item__img-box">
+                        <div class="price-item__img">
+                            <svg class="price-item__img">
+                                <use xlink:href="img/sprite.svg#price3"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="h3 price-item__h3">на дополнительные услуги</h3>
+                    <div class="price-item__num"><strong>договорные</strong></div>
+                    <div class="price-item__desc">(лояльные)</div>
+                    <div class="price-item__text">
+                        <p>
+                            Для примера:
+                        </p>
+                        <ul>
+                            <li>- выезд к заказчику при сумме заказа до тысячи рублей — 200 рублей по Брянску</li>
+                            <li>- механическая и химическая обработка готовой модели если требуется — от 100 рублей</li>
+                            <li>- помощь в освоении 3d-печати или подборе принтера — от 400 рублей.</li>
+                            <li>- и т.д.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="wrapper">
+            <h2 class="h2 portfolio__h2">Некоторые наши работы</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <a href="img/portfolio01.jpg" alt="Фото 01" title="Нажмите, чтобы посмотреть крупнее">
+                        <picture class="portfolio-thumb">
+                            <source srcset="img/portfolio01-small.jpg, img/portfolio01-smallx2.jpg 2x" media="screen">
+                            <img src="img/portfolio01-small.jpg" alt="Миниатюра 01">
+                        </picture>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="img/portfolio17.jpg" alt="Фото 17" title="Нажмите, чтобы посмотреть крупнее">
+                        <picture class="portfolio-thumb">
+                            <source srcset="img/portfolio17-small.jpg, img/portfolio17-smallx2.jpg 2x" media="screen">
+                            <img src="img/portfolio17-small.jpg" alt="Миниатюра 17">
+                        </picture>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="img/portfolio03.jpg" alt="Фото 03" title="Нажмите, чтобы посмотреть крупнее">
+                        <picture class="portfolio-thumb">
+                            <source srcset="img/portfolio03-small.jpg, img/portfolio03-smallx2.jpg 2x" media="screen">
+                            <img src="img/portfolio03-small.jpg" alt="Миниатюра 03">
+                        </picture>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="img/portfolio04.jpg" alt="Фото 04" title="Нажмите, чтобы посмотреть крупнее">
+                        <picture class="portfolio-thumb">
+                            <source srcset="img/portfolio04-small.jpg, img/portfolio04-smallx2.jpg 2x" media="screen">
+                            <img src="img/portfolio04-small.jpg" alt="Миниатюра 04">
+                        </picture>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="img/portfolio05.jpg" alt="Фото 05" title="Нажмите, чтобы посмотреть крупнее">
+                        <picture class="portfolio-thumb">
+                            <source srcset="img/portfolio05-small.jpg, img/portfolio05-smallx2.jpg 2x" media="screen">
+                            <img src="img/portfolio05-small.jpg" alt="Миниатюра 05">
+                        </picture>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="img/portfolio06.jpg" alt="Фото 06" title="Нажмите, чтобы посмотреть крупнее">
+                        <picture class="portfolio-thumb">
+                            <source srcset="img/portfolio06-small.jpg, img/portfolio06-smallx2.jpg 2x" media="screen">
+                            <img src="img/portfolio06-small.jpg" alt="Миниатюра 06">
+                        </picture>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="img/portfolio07.jpg" alt="Фото 07" title="Нажмите, чтобы посмотреть крупнее">
+                        <picture class="portfolio-thumb">
+                            <source srcset="img/portfolio07-small.jpg, img/portfolio07-smallx2.jpg 2x" media="screen">
+                            <img src="img/portfolio07-small.jpg" alt="Миниатюра 07">
+                        </picture>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="img/portfolio08.jpg" alt="Фото 08" title="Нажмите, чтобы посмотреть крупнее">
+                        <picture class="portfolio-thumb">
+                            <source srcset="img/portfolio08-small.jpg, img/portfolio08-smallx2.jpg 2x" media="screen">
+                            <img src="img/portfolio08-small.jpg" alt="Миниатюра 08">
+                        </picture>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="img/portfolio09.jpg" alt="Фото 09" title="Нажмите, чтобы посмотреть крупнее">
+                        <picture class="portfolio-thumb">
+                            <source srcset="img/portfolio09-small.jpg, img/portfolio09-smallx2.jpg 2x" media="screen">
+                            <img src="img/portfolio09-small.jpg" alt="Миниатюра 09">
+                        </picture>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="img/portfolio10.jpg" alt="Фото 10" title="Нажмите, чтобы посмотреть крупнее">
+                        <picture class="portfolio-thumb">
+                            <source srcset="img/portfolio10-small.jpg, img/portfolio10-smallx2.jpg 2x" media="screen">
+                            <img src="img/portfolio10-small.jpg" alt="Миниатюра 10">
+                        </picture>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="img/portfolio11.jpg" alt="Фото 11" title="Нажмите, чтобы посмотреть крупнее">
+                        <picture class="portfolio-thumb">
+                            <source srcset="img/portfolio11-small.jpg, img/portfolio11-smallx2.jpg 2x" media="screen">
+                            <img src="img/portfolio11-small.jpg" alt="Миниатюра 11">
+                        </picture>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="img/portfolio12.jpg" alt="Фото 12" title="Нажмите, чтобы посмотреть крупнее">
+                        <picture class="portfolio-thumb">
+                            <source srcset="img/portfolio12-small.jpg, img/portfolio12-smallx2.jpg 2x" media="screen">
+                            <img src="img/portfolio12-small.jpg" alt="Миниатюра 12">
+                        </picture>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="img/portfolio13.jpg" alt="Фото 13" title="Нажмите, чтобы посмотреть крупнее">
+                        <picture class="portfolio-thumb">
+                            <source srcset="img/portfolio13-small.jpg, img/portfolio13-smallx2.jpg 2x" media="screen">
+                            <img src="img/portfolio13-small.jpg" alt="Миниатюра 13">
+                        </picture>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="img/portfolio14.jpg" alt="Фото 14" title="Нажмите, чтобы посмотреть крупнее">
+                        <picture class="portfolio-thumb">
+                            <source srcset="img/portfolio14-small.jpg, img/portfolio14-smallx2.jpg 2x" media="screen">
+                            <img src="img/portfolio14-small.jpg" alt="Миниатюра 14">
+                        </picture>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="img/portfolio15.jpg" alt="Фото 15" title="Нажмите, чтобы посмотреть крупнее">
+                        <picture class="portfolio-thumb">
+                            <source srcset="img/portfolio15-small.jpg, img/portfolio15-smallx2.jpg 2x" media="screen">
+                            <img src="img/portfolio15-small.jpg" alt="Миниатюра 15">
+                        </picture>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="img/portfolio16.jpg" alt="Фото 16" title="Нажмите, чтобы посмотреть крупнее">
+                        <picture class="portfolio-thumb">
+                            <source srcset="img/portfolio16-small.jpg, img/portfolio16-smallx2.jpg 2x" media="screen">
+                            <img src="img/portfolio16-small.jpg" alt="Миниатюра 16">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+            <p class="portfolio-sub">
+                эти и другие фото в нашем <a href="https://instagr.am/bryansk3d" target="_blank">Instagram</a>
+            </p>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <div class="wrapper">
+            <h2 class="h2 faq__h2">Частозадоваемые вопросы и ответы на них</h2>
+            <div class="faq-columns">
+                <div class="faq-column">
+                    <div class="faq-item active">
+                        <div class="faq-item__q">
+                            <p>
+                                Кто вы? На чём печатаете? Моделируете?
+                            </p>
+                        </div>
+                        <div class="faq-item__a">
+                            <p>Мы — два друга из Брянска. Сергей и Саша. Некоторое время назад увлеклись 3D-печатью. Изначально печатали для себя и друзей. Но потом поняли, что можем превратить хобби в работу.</p>
+                            <p>На данный момент у нас четыре 3D-принтера (Creality Ender 3, Anet A6, Anet A8 и Rostock Max V1). Моделируем во Autodesk Fusion 360. Есть ещё 3D-ручка, но это не для работы :-)</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__q">
+                            <p>
+                                Опишите тезисно процесс заказа для тех, для кого это первый опыт?
+                            </p>
+                        </div>
+                        <div class="faq-item__a">
+                            <p>Вы связываетесь с нами (или мы с васм, если захотите). Описываете задачу. Мы делаем расчёт по срокам и стоимости, после чего вы принимаете решение.</p>
+                            <p>Если договорились, мы печатаем и можем даже привезти вам домой, если захотите. Оплата при получении.</p>
+                            <p>
+                                При заказе моделирования почти так же, только возможно понадобится встретиться до начала работ, для более точного понимания задачи (снять размеры или забрать чертёж, например).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__q">
+                            <p>
+                                Какого цвета пластик у вас есть? Если какого-то цвета нет, то как быстро можете его
+                                привезти?
+                            </p>
+                        </div>
+                        <div class="faq-item__a">
+                            <p>На данный момент в наличии: ABS чёрного, белого, натурального, жёлтого, коричневого, тёмно-зелёного, серого и оранжевого цветов. PETg — красный, жёлтый и белый. PLA — тёмно-синий.</p>
+                            <p>Можно и другие цвета. Обычно наши поставщики доставляют нужный пластик за 4-5 дней.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__q">
+                            <p>
+                                А можно заказать находясь в другом городе Брянской области или России?
+                            </p>
+                        </div>
+                        <div class="faq-item__a">
+                            <p>Ну конечно. Отправим любой транспортной компанией или даже Почтой России (да-да, отстоим все очереди, если вам так будет удобнее).</p>
+                            <p>При заказе от 2500₽ даже транспортные расходы при пересылке по России возьмём на себя.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-column">
+                    <div class="faq-item">
+                        <div class="faq-item__q">
+                            <p>
+                                Вы пишите, что можете помочь с выбором принтера. Не боитесь конкуренции?
+                            </p>
+                        </div>
+                        <div class="faq-item__a">
+                            <p>Тут всё просто. Если человек решил освоить 3d-печать, вряд ли он уже станет заказывать простые модели на стороне. Так что, нам даже выгодно, что нашим клиентом станет человек, который при других обстоятельствах с нами не работал бы.</p>
+                            <p>А по поводу конкуренции, так это только стимул работать лучше. Это молодой, но очень быстро развивающийся бизнес. Очень скоро конкурентов станет намного больше. Лучше с ними дружить, чем воевать.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__q">
+                            <p>
+                                Что значит “особые условия для корпоративных клиентов”?
+                            </p>
+                        </div>
+                        <div class="faq-item__a">
+                            <p>Есть ряд компаний и организаций, которые уже являются нашими постоянными клиентами. Их скидка порой доходит до 50%.</p>
+                            <p>Конечно, всё зависит от объёма и частоты заказов, но условия можно обсуждать в любой момент. Торгуйтесь )))</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__q">
+                            <p>
+                                А напечатанная модель не развалится? Или так можно только одноразовые игрушки делать?
+                            </p>
+                        </div>
+                        <div class="faq-item__a">
+                            <p>Не стоит расчитывать, что мы напечатаем деталь подвески внедорожника, но обычные пластиковые детали после 3d-печати мало чем отличаются от литых или штампованных.</p>
+                            <p>К каждой задаче подбирается свой вид пластика, параметры печати и варианты постобработки. Так что, будь то шестерёнка от блендера или детская игрушка — они будут полностью соответствовать своему предназначению.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__q">
+                            <p>
+                                Тут нет моего вопроса. Где можно задать?
+                            </p>
+                        </div>
+                        <div class="faq-item__a">
+                            <p>Внизу на этой странице есть все наши контакты. Мы с удовольствием ответим в ВК, Инстаграме, Твиттере или Ютюбе.</p>
+                            <p>А ещё можно нам позвонить (или попросить перезвонить) и обсудить любой вопрос по 3d-печати. За такие консультации денег не берём.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts section--dark" id="contacts">
+        <div class="wrapper">
+            <h2 class="h2 contacts__h2">Как нас найти?</h2>
+            <div class="contacts__map">
+                <picture>
+                    <source media="(max-width: 576px)" srcset="img/map-small.png">
+                    <source media="(min-width: 577px)" srcset="img/map.png">
+                    <img src="img/map.png" alt="Карта">
+                </picture>
+            </div>
+            <div class="contacts-columns">
+                <div class="contacts-column">
+                    <div class="contacts-widget">
+                        <h3 class="h3 contacts-widget__h3">Позвонить:</h3>
+                        <div class="contacts-widget__content">
+                            <p class="contacts-widget__phone">
+                                +7 (920) 855-29-11 <span>(лучше с 10 до 20)</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contacts-widget">
+                        <h3 class="h3 contacts-widget__h3">Попросить перезвонить:</h3>
+                        <div class="contacts-widget__content">
+                            <button class="btn contacts__btn sender" id="footer-recall">Нажмите и сообщите свой номер</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts-column">
+                    <div class="contacts-widget">
+                        <h3 class="h3 contacts-widget__h3">Приехать к нам:</h3>
+                        <div class="contacts-widget__content">
+                            <p class="contacts__address">
+                                Брянск, Фокина, 195
+                            </p>
+                            <p>
+                                <span>(предварительно — позвоните)</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contacts-widget">
+                        <h3 class="h3 contacts-widget__h3">Напишите нам:</h3>
+                        <div class="contacts-widget__content"><a href="info@bryansk3d.ru" class="contacts-email">info@bryansk3d.ru</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts-social">
+                <div class="contacts-social__item">
+                    <a href="https://vk.com/bryansk3d_studio" target="_blank">
+                        <svg class="contacts-social__img">
+                            <use xlink:href="img/sprite.svg#vk"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="contacts-social__item">
+                    <a href="https://instagr.am/bryansk3d" target="_blank">
+                        <svg class="contacts-social__img">
+                            <use xlink:href="img/sprite.svg#instagram"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="contacts-social__item">
+                    <a href="https://www.youtube.com/channel/UCykPRSMoLMKz41Z-pU2zrxQ" target="_blank">
+                        <svg class="contacts-social__img">
+                            <use xlink:href="img/sprite.svg#youtube"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="contacts-social__item">
+                    <a href="https://t.me/bryansk3d" target="_blank">
+                        <svg class="contacts-social__img">
+                            <use xlink:href="img/sprite.svg#telegram"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="contacts-social__item">
+                    <a href="https://twitter.com/bryansk3d" target="_blank">
+                        <svg class="contacts-social__img">
+                            <use xlink:href="img/sprite.svg#twitter"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="copy">
+            <p>web site development <a href="http://smargelov.ru">smargelov</a></p>
+        </div>
+        <!-- Modal -->
+
+        <div class="modal">
+            <div class="modal-wrap">
+                <h3 class="h3 modal__h3"><span>Хотите заказать 3d-печать? Легко.</span> Просто сообщите, как с вами связаться.</h3>
+                <form id="form1" class="modal-form">
+                    <input type="hidden" name="target" id="target" value="">
+                    <input class="modal-form__input" type="text" name="phone" id="phone" autofocus maxlength="40">
+                    <label class="modal-form__label" for="phone">в это поле напишите ваш номер телефона или e-mail</label>
+                    <input class="modal-form__input" type="text" name="comment" id="comment" maxlength="340">
+                    <label class="modal-form__label" for="comment">а в это какую-нибудь дополнительную информацию (если захотите)</label>
+                    <button class="modal-form__btn btn" id="send">Отправить</button>
+                </form>
+                <div class="modal__tnx">
+                    <p class="tnx">
+                        Спасибо.
+                    </p>
+                    <p class="tnx--small">
+                        Мы не заставим себя долго ждать. )))
+                    </p>
+                </div>
+                <div class="modal-close">×</div>
+            </div>
+        </div>
+        <div class="overlay">
+        </div>
+        <div class="overlay-btn-box">
+            <div class="overlay-btn overlay-btn__prev">&#60;</div>
+            <div class="overlay-btn overlay-btn__next">&#62;</div>
+        </div>
+        <div class="lightbox">
+            <img src="" alt="Пример работ" class="lightbox-img">
+        </div>
+
+    </footer>
+    <!-- Yandex.Metrika counter -->
+
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/52199230" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+    <script src="js/libs.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+
+    </script>
+
+</body>
+
+</html>
