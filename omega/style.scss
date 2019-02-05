@@ -1,0 +1,388 @@
+@import 'OmegaSass/frontend/app.development.scss';
+@import 'OmegaSass/frontend/app.production.scss';
+@import '../../node_modules/neat-master/core/_neat.scss';
+
+
+$small-rev-page-grid: (
+	columns: 12,
+	gutter: 2px
+);
+
+$neat-grid-tablet: (
+	gutter: 0,
+	media: 'only screen and (max-width: 900px)',
+);
+
+$neat-grid-phone: (
+	gutter: 0,
+	media: 'only screen and (max-width: 600px)',
+);
+
+.small-rev-page {
+	font-family: Roboto;
+	line-height: 1.5;
+	header.head-page {
+		.content {
+			@include grid-container;
+			display: block;
+			padding-right: 0;
+			padding-bottom: 20px;
+			h1 {
+				font-size: 39px;
+				width: 100%;
+				margin-bottom: 0em;
+				text-align: center;
+			}
+			.title-description {
+				font-size: 11px;
+				text-transform: uppercase;
+				line-height: 23px;
+				width: 100%;
+				text-align: center;
+			}
+		}
+			.img-box {
+				@include grid-container;
+				img {
+					width: 100%;
+					@include grid-media($neat-grid-tablet) {
+						&.lg {
+							display: none;
+						}
+					}
+					&.sm {
+						display: none;
+						@include grid-media($neat-grid-tablet) {
+							display: inline;
+						}
+					}
+				}
+			}
+		}
+		.main-container {
+			margin-top: px2em(20px, $body-default-font-size);
+			.content {
+				.offer-full {
+					@include grid-container;
+					.rateblock-container { 
+						@include grid-container;
+						.ratestars { 
+							@include grid-column(4, $small-rev-page-grid);
+							background-color: #e7e7e7;
+							p {
+								width: 100%;
+								text-align: center;
+								text-transform: uppercase;
+								color: #383838;
+								font-size: px2em(13px, $body-default-font-size);
+								line-height: 20px;
+								
+								&.number { 
+									font-size: px2em(84px, $body-default-font-size);
+									line-height: 98px;
+									font-weight: bold;
+									color: #4090cc;
+									margin: 10px auto;
+								}
+							}
+							.stars {
+								margin: 0 auto;
+								text-align: center;
+								padding-bottom: 23px;
+								width: 173px;
+								border-bottom: 1px solid #c2c2c2;
+								.bluestar { 
+									display: inline-block;
+									background-image: url(../img/svg/00.svg);
+									height: 29px;
+									width: 29px;
+								}
+							}
+							@include grid-media($neat-grid-phone) {
+								@include grid-column(12);
+								margin-bottom: 10px;
+							}
+						}
+
+						.ratedescription { 
+							@include grid-column(5, $small-rev-page-grid);
+							padding-left: px2em(30px, $body-default-font-size);
+							padding-right: px2em(30px, $body-default-font-size);
+							@include grid-media($neat-grid-phone) {
+									@include grid-column(7);
+									padding-left: 0;
+								}
+							p { 
+								font-size: 15px;
+								span { 
+									font-weight: bold;
+								}
+							}
+						}
+
+						.ratelogo { 
+							@include grid-column(3, $small-rev-page-grid);
+							@include grid-media($neat-grid-phone) {
+									@include grid-column(5);
+								}
+							img { 
+								width: 100%;
+							}
+						}
+					}
+					h2 {
+						font-size: px2em(20px, $body-default-font-size);
+						line-height: 1.5;
+						color: #383838;
+						text-transform: uppercase;
+						margin-top: 40px;
+					}
+					h3 {
+						font-size: px2em(16px, $body-default-font-size);
+						text-transform: uppercase;
+						color: #797979;
+						margin-top: 20px;
+					}
+					.mentions { 
+						@include grid-container;
+						margin-bottom: 34px;
+						.mention { 
+							@include grid-column(6, $small-rev-page-grid);
+							padding-right: 30px;
+							margin-bottom: 20px;
+							@include grid-media($neat-grid-tablet) {
+									@include grid-column(12);
+								}
+							.name { 
+								font-size: 15px;
+								margin-bottom: 5px;
+							}
+
+							.desc { 
+								font-size: 13px;
+								margin-top: 0;
+							}
+
+							.ratebox { 
+								font-size: 13px;
+								&>div {
+									display: inline-block;
+									margin-right: 12px;
+								}
+								.rate { 
+									span {
+										font-size: 24px;
+										font-weight: bold;
+									}
+
+								}
+
+								.brounstars { 
+
+									.stars { 
+										display: inline-block;
+										width: 21px;
+										height: 21px;
+										background-image: url(../img/svg/b00.svg);
+
+									}
+								}
+
+							}
+						}
+					}
+					.reviewsblock {
+						margin-bottom: 50px;
+						.review { 
+							font-size: 15px;
+							line-height: 23px;
+							margin-bottom: 30px;
+							
+							.name { 
+								font-size: 15px;
+								margin-bottom: 0;
+							}
+	
+							.desc { 
+								font-size: 13px;
+								margin-top: 0;
+								color: #797979;
+							}
+	
+							.rev { 
+								padding-left: 41px;
+								background-image: url(../img/svg/lr.svg);
+								background-repeat: no-repeat;
+								background-position: 0 5px;
+	
+							}
+						}
+					}
+					.bigimgblock { 
+						width: 100%;
+						margin: 10px auto 0;
+						img { 
+							width: 100%;
+						}
+						
+						figcaption { 
+							text-align: right;
+							font-size: 11px;
+							color: #a1a1a1;
+							
+						}
+					}
+					button { 
+						width: auto;
+						max-width: 300px;
+						color: #787878;
+						font-size: 11px;
+						background-color: #ebebeb;
+						border: 1px solid #d6d6d6;
+						padding: 9px 37px 9px 20px;
+						margin-top: 30px;
+						position: relative;
+
+						span {
+							position: absolute;
+							right: 10px;
+							width: 10px;
+							height: 10px;
+							&.up {
+								bottom: 5px;
+								border-right: 1px solid #787878;
+								border-top: 1px solid #787878;
+								transform: rotate(-45deg);
+							}
+							&.down {
+								bottom: 11px;
+								border-right: 1px solid #787878;
+								border-top: 1px solid #787878;
+								transform: rotate(135deg);
+							}
+						}
+						&:hover {
+							color: #4090cc;
+							background-color: #e1e9f0;
+							border: 1px solid #4090cc;
+							padding: 9px 37px 9px 20px;
+							span {
+								border-color: #4090cc;
+							}
+						}
+					}
+					.instructionblock { 
+
+						.first { 
+
+							ol { 
+								margin-bottom: 0;
+							}
+						}
+
+						.second { 
+							display: none;
+							ol { 
+								margin-top: 0;
+								li { 
+									list-style-type: none;
+									&::before {
+										position: absolute;
+										left: 39px;
+										counter-increment: list;
+										content: counter(list)'.';
+									}
+								}
+							}
+							
+							.source { 
+								padding-left: 40px;
+								margin-top: 40px;
+								background-image: url(../img/svg/icon-document.svg);
+								background-repeat: no-repeat;
+								background-position: 40px 30px;
+								h6 { 
+									color: #797979;
+									font-size: 14px;
+									font-weight: normal;
+
+								}
+
+								p { 
+									font-size: 14px;
+									margin: 0;
+									padding-left: 43px;
+								}
+							}
+						}
+
+					}
+					.adblock3 {
+						img {
+							width: 100%;
+						}
+					}
+					.wheretable {
+						img {
+							width: 100%;
+						}
+					}
+					.specification-container { 
+
+						.heading { 
+							border: none;
+							margin-bottom: 60px;
+
+							h6 { 
+								font-size: 13px;
+								color: #888888;
+								font-weight: normal;
+							}
+						}
+						.halfhide {
+							height: 180px;
+							overflow: hidden;
+							position: relative;
+							transition: height 0.5s ease-out 0;
+							&::after {
+								display: block;
+								position: absolute;
+								width: 100%;
+								height: 124px;
+								background-image: url(../img/bg-grad.png);
+								background-repeat: repeat-x;
+								bottom: 0;
+								left: 0;
+								content: '';
+							}
+						}
+					}
+					.article-rating-full { 
+
+						.article-content { 
+
+							.entry-container { 
+
+								.entry { 
+									width: 100%;
+									@include grid-media($neat-grid-phone) {
+										width: 100%;
+
+									}
+									.contents-table-active {
+										background-color: transparent;
+										.name {
+											a{
+												color: #847A79;
+
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}

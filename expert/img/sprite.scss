@@ -1,0 +1,234 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$burger-name: 'burger';
+$burger-x: 85px;
+$burger-y: 72px;
+$burger-offset-x: -85px;
+$burger-offset-y: -72px;
+$burger-width: 8px;
+$burger-height: 7px;
+$burger-total-width: 180px;
+$burger-total-height: 113px;
+$burger-image: '../img/svg/burger.svg';
+$burger: (85px, 72px, -85px, -72px, 8px, 7px, 180px, 113px, '../img/svg/burger.svg', 'burger', );
+$burger-grey-name: 'burger-grey';
+$burger-grey-x: 166px;
+$burger-grey-y: 34px;
+$burger-grey-offset-x: -166px;
+$burger-grey-offset-y: -34px;
+$burger-grey-width: 8px;
+$burger-grey-height: 7px;
+$burger-grey-total-width: 180px;
+$burger-grey-total-height: 113px;
+$burger-grey-image: '../img/svg/burger-grey.svg';
+$burger-grey: (166px, 34px, -166px, -34px, 8px, 7px, 180px, 113px, '../img/svg/burger-grey.svg', 'burger-grey', );
+$close-name: 'close';
+$close-x: 166px;
+$close-y: 34px;
+$close-offset-x: -166px;
+$close-offset-y: -34px;
+$close-width: 26px;
+$close-height: 26px;
+$close-total-width: 180px;
+$close-total-height: 113px;
+$close-image: '../img/svg/close.svg';
+$close: (166px, 34px, -166px, -34px, 26px, 26px, 180px, 113px, '../img/svg/close.svg', 'close', );
+$home-name: 'home';
+$home-x: 64px;
+$home-y: 72px;
+$home-offset-x: -64px;
+$home-offset-y: -72px;
+$home-width: 17px;
+$home-height: 14px;
+$home-total-width: 180px;
+$home-total-height: 113px;
+$home-image: '../img/svg/home.svg';
+$home: (64px, 72px, -64px, -72px, 17px, 14px, 180px, 113px, '../img/svg/home.svg', 'home', );
+$lock-name: 'lock';
+$lock-x: 0px;
+$lock-y: 96px;
+$lock-offset-x: 0px;
+$lock-offset-y: -96px;
+$lock-width: 14px;
+$lock-height: 17px;
+$lock-total-width: 180px;
+$lock-total-height: 113px;
+$lock-image: '../img/svg/lock.svg';
+$lock: (0px, 96px, 0px, -96px, 14px, 17px, 180px, 113px, '../img/svg/lock.svg', 'lock', );
+$logo-name: 'logo';
+$logo-x: 0px;
+$logo-y: 0px;
+$logo-offset-x: 0px;
+$logo-offset-y: 0px;
+$logo-width: 180px;
+$logo-height: 30px;
+$logo-total-width: 180px;
+$logo-total-height: 113px;
+$logo-image: '../img/svg/logo.svg';
+$logo: (0px, 0px, 0px, 0px, 180px, 30px, 180px, 113px, '../img/svg/logo.svg', 'logo', );
+$mob-burg-name: 'mob-burg';
+$mob-burg-x: 0px;
+$mob-burg-y: 72px;
+$mob-burg-offset-x: 0px;
+$mob-burg-offset-y: -72px;
+$mob-burg-width: 20px;
+$mob-burg-height: 20px;
+$mob-burg-total-width: 180px;
+$mob-burg-total-height: 113px;
+$mob-burg-image: '../img/svg/mob-burg.svg';
+$mob-burg: (0px, 72px, 0px, -72px, 20px, 20px, 180px, 113px, '../img/sprite.png', 'mob-burg', );
+$ring-name: 'ring';
+$ring-x: 24px;
+$ring-y: 72px;
+$ring-offset-x: -24px;
+$ring-offset-y: -72px;
+$ring-width: 17px;
+$ring-height: 16px;
+$ring-total-width: 180px;
+$ring-total-height: 113px;
+$ring-image: '../img/svg/ring.svg';
+$ring: (24px, 72px, -24px, -72px, 17px, 16px, 180px, 113px, '../img/svg/ring.svg', 'ring', );
+$search-name: 'search';
+$search-x: 106px;
+$search-y: 34px;
+$search-offset-x: -106px;
+$search-offset-y: -34px;
+$search-width: 26px;
+$search-height: 26px;
+$search-total-width: 180px;
+$search-total-height: 113px;
+$search-image: '../img/svg/search.svg';
+$search: (106px, 34px, -106px, -34px, 26px, 26px, 180px, 113px, '../img/svg/search.svg', 'search', );
+$search-hover-name: 'search-hover';
+$search-hover-x: 76px;
+$search-hover-y: 34px;
+$search-hover-offset-x: -76px;
+$search-hover-offset-y: -34px;
+$search-hover-width: 26px;
+$search-hover-height: 26px;
+$search-hover-total-width: 180px;
+$search-hover-total-height: 113px;
+$search-hover-image: '../img/svg/search-hover.svg';
+$search-hover: (76px, 34px, -76px, -34px, 26px, 26px, 180px, 113px, '../img/svg/search-hover.svg', 'search-hover', );
+$star-name: 'star';
+$star-x: 38px;
+$star-y: 34px;
+$star-offset-x: -38px;
+$star-offset-y: -34px;
+$star-width: 34px;
+$star-height: 34px;
+$star-total-width: 180px;
+$star-total-height: 113px;
+$star-image: '../img/svg/star.svg';
+$star: (38px, 34px, -38px, -34px, 34px, 34px, 180px, 113px, '../img/svg/star.svg', 'star', );
+$star-hover-name: 'star_hover';
+$star-hover-x: 0px;
+$star-hover-y: 34px;
+$star-hover-offset-x: 0px;
+$star-hover-offset-y: -34px;
+$star-hover-width: 34px;
+$star-hover-height: 34px;
+$star-hover-total-width: 180px;
+$star-hover-total-height: 113px;
+$star-hover-image: '../img/svg/star-hover.svg';
+$star-hover: (0px, 34px, 0px, -34px, 34px, 34px, 180px, 113px, '../img/svg/star-hover.svg', 'star-hover', );
+$user-name: 'user';
+$user-x: 45px;
+$user-y: 72px;
+$user-offset-x: -45px;
+$user-offset-y: -72px;
+$user-width: 15px;
+$user-height: 16px;
+$user-total-width: 180px;
+$user-total-height: 113px;
+$user-image: '../img/svg/user.svg';
+$user: (45px, 72px, -45px, -72px, 15px, 16px, 180px, 113px, '../img/svg/user.svg', 'user', );
+$vk-name: 'vk';
+$vk-x: 136px;
+$vk-y: 34px;
+$vk-offset-x: -136px;
+$vk-offset-y: -34px;
+$vk-width: 26px;
+$vk-height: 16px;
+$vk-total-width: 180px;
+$vk-total-height: 113px;
+$vk-image: '../img/svg/vk.svg';
+$vk: (136px, 34px, -136px, -34px, 26px, 16px, 180px, 113px, '../img/svg/vk.svg', 'vk', );
+$spritesheet-width: 180px;
+$spritesheet-height: 113px;
+$spritesheet-image: '../img/sprite.png';
+$spritesheet-sprites: ($burger, $burger-grey, $home, $lock, $logo, $mob-burg, $ring, $search, $search-hover, $star, $star-hover, $user, $vk, );
+$spritesheet: (180px, 113px, '../img/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+  background-repeat: no-repeat;
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  // @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

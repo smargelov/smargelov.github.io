@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="logo col-md-3">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                </div>
+                <input class="nav-burger__checkbox" type="checkbox" id="burger">
+                <label class="nav-burger" for="burger">Меню</label>
+                <nav class="navbar col-md-9">
+                    <ul class="pull-right">
+                        <li class="active"><a href="index.html">Главная</a></li><!--
+                             --><li><a href="#">Информация &#9013;</a>
+                        <ul class="submenu">
+                            <li><a href="law.html">Закон</a></li>
+                            <li><a href="reference.html">Справка</a></li>
+                        </ul>
+                    </li><!--
+                             --><li><a href="order.html">Заказать</a></li><!--
+                             --><!-- <li><a href="#">Галерея</a></li> --><!--
+                             --><li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+	<article>
+		<section class="container">
+			<div class="row">
+				<div class="order-block col-xs-12 wow fadeIn order">
+					<h2>Заполните эту простую форму:</h2>
+					<form class="cf">
+						<div class="half left cf">
+							<input type="text" id="input-name" placeholder="Имя (наименование организации)">
+							<input type="phone" id="input-phone" placeholder="Номер телефона">
+							<input type="email" id="input-email" placeholder="Email адрес">
+							<input type="text" id="input-subject" placeholder="Тема">
+						</div>
+						<div class="half right cf">
+							<textarea name="message" type="text" id="input-message" placeholder="Сообщение"></textarea>
+						</div>
+						<input type="submit" value="Отправить" id="input-submit">
+					</form>
+				</div>
+			</div>
+		</section>
+
+
+
+		<section class="excellence">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 green">
+						<h3>Или позвините нам, если вам так удобнее</h3>
+						<p class="phone"><a href="tel:+74832505503">505-503</a></p>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="btn-zone">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12"><button data-mfp-src="#rec" class="open-popup btn wow fadeIn open_modal">Реквизиты</button></div>
+				</div>
+			</div>
+		</section>
+	</article>
+	<footer>
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-sm-4">
+                <h4>Дополнительные ссылки:</h4>
+                <ul>
+                    <li><a href="#">Lorema ipsum dolor sit amet.</a></li>
+                    <li><a href="#">Officiis similique praesentium consequatur enim.</a></li>
+                    <li><a href="#">Dolorum cumque a ea, ex.</a></li>
+                    <li><a href="#">Tempora officia laboriosam iure est.</a></li>
+                    <li><a href="#">Rerum neque numquam quo, magni.</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <h4>Другие ссылки:</h4>
+                <ul>
+                    <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                    <li><a href="#">Aspernatur eos velit saepe praesentium?</a></li>
+                    <li><a href="#">Voluptatibus minus, cum magnam iusto.</a></li>
+                    <li><a href="#">Nam vitae pariatur error voluptatem!</a></li>
+                    <li><a href="#">Maiores cum animi et nihil.</a></li>
+                </ul>
+            </div> -->
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                <h4>Как нас найти:</h4>
+                <div class="pleace">
+                    <p>Достаточно просто. </p>
+                    <p>Можно позвонить по телефону: 505-503. Можно через <a href="order.html">форму обратной связи</a>. Или приехать <a href="contacts.html">к нам в гости</a>.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row copy">
+            <hr>
+            <div class="col-xs-6">
+                <p>© ООО «Гранит» — 2017</p>
+            </div>
+            <div class="col-xs-6 smar">
+                <p>web site development <a href="#">smargelov</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Modal -->
+
+<div id="rec" class="modal_div mfp-hide">
+    <div class="content">
+        <h4>Наши реквизиты</h4>
+        <table>
+            <tbody>
+            <tr>
+                <td><strong>Полное наименование</strong></td>
+                <td>Общество с ограниченной ответственностью «Гранит»</td>
+            </tr>
+            <tr>
+                <td><strong>Сокращенное наименование</strong></td>
+                <td>ООО «Гранит»</td>
+            </tr>
+            <tr>
+                <td><strong>ИНН/КПП</strong></td>
+                <td>3257042424/325701001</td>
+            </tr>
+            <tr>
+                <td><strong>Юридический адрес</strong></td>
+                <td>241019, Брянская область, г. Брянск, пер. Осоавиахима, д. 3 г</td>
+            </tr>
+            <tr>
+                <td><strong>Местонахождение</strong></td>
+                <td>г. Брянск пр-т Станке Димитрова 42/2</td>
+
+            </tr>
+            <tr>
+                <td rowspan="3"><strong>Банковские реквизиты</strong></td>
+                <td>р/с 407 028 105 003 401 002 11 в ПАО "БИНБАНК", г. Москва</td>
+            </tr>
+            <tr>
+                <td>к/с 301 018 102 452 500 001 17</td>
+            </tr>
+            <tr>
+                <td>БИК  044 525 117</td>
+            </tr>
+            <tr>
+                <td><strong>ОГРН</strong></td>
+                <td>1163256056853</td>
+            </tr>
+            <tr>
+                <td><strong>ОКАТО</strong></td>
+                <td>15401375000</td>
+            </tr>
+            <tr>
+                <td><strong>ОКПО</strong></td>
+                <td>2605457</td>
+            </tr>
+            <tr>
+                <td><strong>ОКФС</strong></td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td><strong>ОКОПФ</strong></td>
+                <td>65</td>
+            </tr>
+            <tr>
+                <td><strong>Телефон/факс</strong></td>
+                <td>8(4832)59-97-69 и 89051755552</td>
+            </tr>
+            <tr>
+                <td><strong>E-mail</strong></td>
+                <td>granit-ooo32@mail.ru</td>
+            </tr>
+            <tr>
+                <td><strong>Генеральный директор</strong></td>
+                <td>Платонов Алексей Валентинович</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <div class="footer"><a href="docs/granit.pdf" class="pdf">Открыть как PDF</a></div>
+    </div>
+</div>
+
+<div id="overlay"></div>
+
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+

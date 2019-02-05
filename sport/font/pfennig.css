@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: 'pfennig';
+    src: url('pfennig.eot');
+    src: url('pfennig.eot?#iefix') format('embedded-opentype'),
+         url('pfennig.woff') format('woff'),
+         url('pfennig.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pfennigbold';
+    src: url('pfennigbold.eot');
+    src: url('pfennigbold.eot?#iefix') format('embedded-opentype'),
+         url('pfennigbold.woff') format('woff'),
+         url('pfennigbold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pfennigbolditalic';
+    src: url('pfennigbolditalic.eot');
+    src: url('pfennigbolditalic.eot?#iefix') format('embedded-opentype'),
+         url('pfennigbolditalic.woff') format('woff'),
+         url('pfennigbolditalic.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'pfennigitalic';
+    src: url('pfennigitalic.eot');
+    src: url('pfennigitalic.eot?#iefix') format('embedded-opentype'),
+         url('pfennigitalic.woff') format('woff'),
+         url('pfennigitalic.ttf') format('truetype');
+    font-weight: normal;
+}

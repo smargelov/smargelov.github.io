@@ -1,0 +1,268 @@
+/*
+Theme Name: Zavod (SM)
+Theme URI: http://www.smargelov.ru;
+Description: Шаблон предназначен для использования исключительно на сайте Брянского коворкинг-центра Zavod. Использование на любом другом ресурсе запрещено.
+Author: smargelov
+Author URI: http://smargelov.ru/
+Version: 1
+Text Domain: zavod
+*/
+
+@import url(css/bootstrap.css);
+@import url(css/bootstrap-responsive.css);
+/*@import url(font/modernh.css);*/
+@import "http://webfonts.ru/import/modernh.css";
+
+/*    GLOBAL    */
+
+body {
+	font: 22px/30px 'ModernH';
+	color: #520;
+	background-color: #e9ddaf;
+}
+a {
+	color: #5a2ca0;
+}
+li{
+	line-height: 30px;
+}
+
+/*   HEADER   */
+
+.header {
+	background: #aba195 url(img/header-bg.jpg) center center no-repeat;
+	min-height: 300px; /*изменено для экрана планшета*/
+	background-size: 2000px 100%;
+}
+.header .span6 img {
+	display: block;
+	margin: 0 auto;
+}
+.logo {
+	margin-top: 5%;
+}
+.contact {
+	margin-top: 20%;
+	text-align: center;
+	font-size: 27px;
+	line-height: 35px;
+}
+.contact span {
+	font-size: 15px;
+	color: #a05a2c;
+}
+
+/*    MENU    */
+
+.menu {
+	background-color: #746e57;
+}
+.menu ul {
+	text-align: center;
+}
+.menu li {
+	font-size: 22px; /*изменено для широкого экрана*/
+	line-height: 60px;
+	list-style: none;
+	display: inline;
+	padding: 0 9px; /*изменено для широкого экрана*/
+	position: relative;
+	text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.menu .current-menu-item:after {
+	content: '';
+	display: inline;
+	position: absolute;
+	width: 60%;
+	border-bottom: 1px #e9ddaf solid;
+	bottom: -5px;
+	left: 20%;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+} 
+.menu a {
+	color: #e9ddaf;
+}
+.menu a:hover,
+.menu a:active,
+.menu a:focus {
+	text-decoration: none;
+	color: #D5C792;
+}
+
+/*    MENU (MOBILE)    */
+
+.navbar {
+	margin-bottom: 0;
+}
+.navbar-inner {
+    background-color: #746e57;
+    background-image: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.navbar .brand {
+    color: #e9ddaf;
+    font-size: 25px;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
+    color: #e9ddaf;
+    font-weight: normal;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.nav-collapse .nav > li > a:hover, 
+.nav-collapse .nav > li > a:focus {
+	background-color: #8F8354;
+	color: #D5C792;
+}
+.navbar .nav > .current-menu-item > a, 
+.navbar .nav > .current-menu-item > a:hover, 
+.navbar .nav > .current-menu-item > a:focus {
+    background-color: #9A8E63;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125) inset;
+    color: #C5B67A;
+    text-decoration: none;
+}
+.navbar .btn, .navbar .btn-group {
+    margin-top: 10px;
+}
+
+/*    CONTENT    */
+
+.title {
+	color: #786721;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+/*    БЛОКИ НА ГЛАВНОЙ    */
+
+.block {
+	position: relative;
+	z-index: 1;
+	padding-top: 50px;
+	padding-bottom: 35px;
+}
+.block1 {
+	background-color: #c7916f;
+}
+.block2 {
+	background-color: #d3bc5f;
+}
+.block3 {
+	background-color: #c8c4b7;
+}
+.block4 {
+	background-color: #c87137;
+}
+.mainimg {
+	margin-bottom: 30px;
+}
+.mainimg {
+	position: relative;
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.mainimg:before, .mainimg:after {
+	position: absolute;
+	width: 40%;
+	height: 10px;
+	content: ' ';
+	left: 12px;
+	bottom: 12px;
+	background: transparent;
+	-webkit-transform: skew(-5deg) rotate(-5deg);
+	-moz-transform: skew(-5deg) rotate(-5deg);
+	-ms-transform: skew(-5deg) rotate(-5deg);
+	-o-transform: skew(-5deg) rotate(-5deg);
+	transform: skew(-5deg) rotate(-5deg);
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+	-moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+	z-index: -1;
+}
+.mainimg:after {
+	left: auto;
+	right: 12px;
+	-webkit-transform: skew(5deg) rotate(5deg);
+	-moz-transform: skew(5deg) rotate(5deg);
+	-ms-transform: skew(5deg) rotate(5deg);
+	-o-transform: skew(5deg) rotate(5deg);
+	transform: skew(5deg) rotate(5deg);
+}
+
+/*    FOOTER    */
+
+.bigfooter {
+	background-color: #483E37;
+	color: #a7ac93;
+}
+.bigfooter h4 {
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+.bigfooter address {
+	line-height: 30px;
+}
+.social {
+	margin-bottom: 30px;
+}
+.bigfooter a {
+	color: #9A9BEF;
+}
+.footer {
+	padding: 10px 20px 5px;
+	background-color: #2b2200;
+}
+.copy {
+	color: #b3b3b3;
+	width: 50%;
+}
+.smargelov {
+	color: #4d4d4d;
+	width: 50%;
+	text-align: right;
+}
+.smargelov a {
+	color: #999;
+}
+
+/*    ОТДЕЛЬНЫЕ СТИЛИ ДЛЯ АДАПТИВНОСТИ    */
+
+@media (min-width: 1200px) {
+	.menu li {
+		font-size: 25px;
+		padding: 0 18px;
+	}
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.header {
+		min-height: 200px;
+	}
+}
+@media (max-width: 767px) {
+	body {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.block .span6,
+	.block .span4 {
+		padding: 0 10px;
+	}
+	.social {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.social .span2 {
+		float: left;
+	    margin-left: 20px;
+	    min-height: 1px;
+	    width: 10%;
+	}
+ }

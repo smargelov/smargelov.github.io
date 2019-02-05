@@ -1,0 +1,8 @@
+ a, a:hover, a:active, a:visited {text-decoration: none; color: black;}
+.header {background: none;}
+.contact-info, .small-img {color:black;padding-top: 10px;}
+.hidden-phone {display:block !important;}
+.navbar, .sidebar, .title-box, .breadcrumb, .price-info .btn, .share-block, .similar, .sidebar-bottom, .authors, .tab-features li{display:none !important;} 
+.tab-features li.active {display: block !important;}
+.site-logo {width: 250px;}
+
