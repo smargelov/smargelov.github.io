@@ -74,19 +74,34 @@
     <div class="wrapper">
         <div class="about-top__block">
             <div class="about-top__slider">
-                <div class="about-top__slide about-top__slide--1" style="background-image: url(img/about-slide-1.jpg)">
-                    <div class="about-top__slide-desc">
-                        Выгодно по-настоящему в КПК Тверской Капитал!
-                    </div>
-                    <div class="about-top__arrow-block arrow-block">
-                        <div class="about-top__arrow-left arrow-left">
-                            <img src="img/vector-temp/arrow-left.png" alt="">
+                <div id="about-top-carousel" class="owl-carousel">
+                    <div class="about-top__slide" style="background-image: url(img/about-slide-1.jpg)">
+                        <div class="about-top__slide-desc">
+                            Выгодно по-настоящему в КПК Тверской Капитал!
                         </div>
-                        <div class="about-top__arrow-right arrow-right">
-                            <img src="img/vector-temp/arrow-right.png" alt="">
+                    </div>
+                    <div class="about-top__slide" style="background-image: url(img/about-slide-2.jpg)">
+                        <div class="about-top__slide-desc">
+                            КПК Тверской Капитал - ваш ксклюзивный финансовый помощник.
+                        </div>
+                    </div>
+                    <div class="about-top__slide" style="background-image: url(img/about-slide-3.jpg)">
+                        <div class="about-top__slide-desc">
+                            Максимально высокая доходность по сберегательным программам в Твери!
+                        </div>
+                    </div>
+                    <div class="about-top__slide" style="background-image: url(img/about-slide-4.jpg)">
+                        <div class="about-top__slide-desc">
+                            Оптимальные условия для преумножения средств
+                        </div>
+                    </div>
+                    <div class="about-top__slide" style="background-image: url(img/about-slide-5.jpg)">
+                        <div class="about-top__slide-desc">
+                            Размещайте средства под высокий процент - получайте стабильную доходность!
                         </div>
                     </div>
                 </div>
+                <div class="about-top__arrow-block arrow-block"></div>
             </div>
             <div class="about-top__content">
                 <h2 class="h2 about-top__title">
@@ -144,7 +159,7 @@
     <div class="wrapper">
         <div class="documents-block">
             <h2 class="h2 documents-block__title">Документы</h2>
-            <div class="documents-block__items">
+            <div id="documents-carousel" class="documents-block__items owl-carousel">
                 <div class="documents-block__item">
                     <a href=""><img src="img/docs-temp.jpg" alt="" /></a>
                 </div>
@@ -161,14 +176,7 @@
                     <a href=""><img src="img/docs-temp.jpg" alt="" /></a>
                 </div>
             </div>
-            <div class="about__arrow-block arrow-block">
-                <div class="arrow-left">
-                    <img src="img/vector-temp/arrow-left.png" alt="">
-                </div>
-                <div class="arrow-right">
-                    <img src="img/vector-temp/arrow-right.png" alt="">
-                </div>
-            </div>
+            <div class="about__arrow-block arrow-block"></div>
         </div>
     </div>
 </div>
@@ -178,7 +186,7 @@
         <h2 class="h2 feedback__title">
             Отзывы наших пайщиков
         </h2>
-        <div class="feedback__items">
+        <div id="feedback-carousel" class="feedback__items owl-carousel">
             <div class="feedback__item">
                 <div class="feedback__text">
                     Starlink — спутниковая сеть следующего поколения, способная обеспечить жителей Земли широкополосным
@@ -200,6 +208,16 @@
             </div>
             <div class="feedback__item">
                 <div class="feedback__text">
+                    jQuery имеет ряд функций, выполняющих анимационные эффекты с элементами страницы. Начиная от простых
+                    возможностей: скрытия, появления, перемещения элементов, библиотека позволит создавать свои, более
+                    сложные эффекты, основанные на изменении CSS свойств. Эти изменения могут происходить плавно или
+                    мгновенно, замедляться, ускоряться или выполняться равномерно.
+                </div>
+                <div class="feedback__author">Сергей Маргелов</div>
+                <div class="feedback__prof">web-разработчик</div>
+            </div>
+            <div class="feedback__item">
+                <div class="feedback__text">
                     Виновница необычного явления — моль горностаевая. Это небольшие светлые бабочки, которые создают на
                     ветках паутинные гнезда.
                     Горностаевые моли вредят плодовым и лесопарковым культурам. Множество гусениц, которые развиваются в
@@ -209,14 +227,7 @@
                 <div class="feedback__prof">программист</div>
             </div>
         </div>
-        <div class="about__arrow-block arrow-block">
-            <div class="arrow-left">
-                <img src="img/vector-temp/arrow-left.png" alt="">
-            </div>
-            <div class="arrow-right">
-                <img src="img/vector-temp/arrow-right.png" alt="">
-            </div>
-        </div>
+        <div class="feedback__arrow-block arrow-block"></div>
     </div>
 </div>
 
@@ -226,7 +237,7 @@
             Вопрос-ответ
         </div>
         <div class="faq__items">
-            <div class="faq__item faq__item--active">
+            <div class="faq__item">
                 <div class="faq__question">
                     Что такое КПК?
                 </div>
@@ -366,7 +377,7 @@
     </div>
 
 </footer>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/libs.js"></script>
 <script src="js/main.js"></script>
 <script>
