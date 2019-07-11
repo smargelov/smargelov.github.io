@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <button class="header__btn btn">
+            <button class="header__btn btn" data-btn="modal-form">
                 Обратная связь
             </button>
             <div class="header__burger"></div>
@@ -570,9 +570,62 @@
           заключается в организации финансовой взаимопомощи всем участникам и
           повышении благосостояния наших клиентов (пайщиков).
         </p>
-        <button class="btn about-block__btn">
+        <button class="btn about-block__btn" data-btn="diff">
           Чем КПК отличаются от банков?
         </button>
+        <div class="modal modal-2">
+          <div class="modal__close">×</div>
+          <div class="diff__modal">
+            <h2 class="h2 modal__title">Чем КПК отличаются от банков?</h2>
+            <div class="diff__table">
+              <table>
+                <thead class="diff__head">
+                  <tr>
+                    <td class="diff__td diff__td--head"></td>
+                    <td class="diff__td diff__td--head">КПК</td>
+                    <td class="diff__td diff__td--head">Банк</td>
+                  </tr>
+                </thead>
+                <tbody class="diff__body">
+                  <tr class="diff__tr">
+                    <td class="diff__td">Программы различной доходности </td>
+                    <td class="diff__td">Сберегательные программы<br>
+                      Ставки: 11,63-13,95%</td>
+                    <td class="diff__td">Депозиты<br>
+                      Ставки: 5-8%</td>
+                  </tr>
+                  <tr class="diff__tr">
+                    <td class="diff__td">Страхование ответственности </td>
+                    <td class="diff__td">Страховая компания<br>
+                      Покрывает всю сумму размещенных средств.</td>
+                    <td class="diff__td">Агентство по страхованию вкладов.<br>
+                      Максимальная страховая сумма— 1,4 млн рублей</td>
+                  </tr>
+                  <tr class="diff__tr">
+                    <td class="diff__td">Обеспечение</td>
+                    <td class="diff__td">Займы выдаются под залог ликвидного дижимого или недвижимого имущества</td>
+                    <td class="diff__td">Политика управления рисками определяется
+                      банком</td>
+                  </tr>
+                  <tr class="diff__tr">
+                    <td class="diff__td">Регулирующие органы</td>
+                    <td class="diff__td">Центральный Банк РФ, СРО<br>
+                      Без права изъятия лицензии</td>
+                    <td class="diff__td">Центральный Банк РФ<br>
+                      С правом изъятия лицензии</td>
+                  </tr>
+                  <tr class="diff__tr">
+                    <td class="diff__td">Личные сбережения</td>
+                    <td class="diff__td">Не являются собственностью кооператива.<br>
+                      Возможность частичного контроля вложенных средств</td>
+                    <td class="diff__td">Не являются собственностью Банка.<br>
+                      Сбережениями полностью управляет Банк.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -704,6 +757,34 @@
     </div>
 
 </footer>
+
+<div class="overlay"></div>
+<div class="modal modal-1">
+    <div class="modal__close">×</div>
+    <div class="modal__form modal-form">
+        <h2 class="h2 modal__title">Обратная связь</h2>
+        <form action="" class="modal-form__form">
+            <div class="modal-form__input-line">
+                <label class="modal-form__label">ФИО<br><input type="text"
+                        class="modal-form__input modal-form__input--text"></label>
+                <label class="modal-form__label">Номер телефона<br><input type="tel"
+                        class="modal-form__input modal-form__input--text"></label>
+                <label class="modal-form__label">Комментарий<br><textarea type="text"
+                        class="modal-form__input modal-form__input--textarea"></textarea></label>
+            </div>
+            <label class="modal-form__label modal-form__label--check form__label--check">
+                <input type="checkbox" id="check"
+                    class="modal-form__input modal-form__input--check form__input form__input--check">
+                <div class="modal-form__check--text form__check--text">
+                    Нажимая отправить я соглашаюсь с <a class="modal-form__link" href="#">условиями передачи
+                        информации</a>
+                </div>
+            </label>
+            <button type="submit" class="btn modal-form__btn">Отправить</button>
+        </form>
+    </div>
+</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/libs.js"></script>
 <script src="js/main.js"></script>

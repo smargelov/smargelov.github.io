@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <button class="header__btn btn">
+            <button class="header__btn btn" data-btn="modal-form">
                 Обратная связь
             </button>
             <div class="header__burger"></div>
@@ -167,6 +167,34 @@
     </div>
 
 </footer>
+
+<div class="overlay"></div>
+<div class="modal modal-1">
+    <div class="modal__close">×</div>
+    <div class="modal__form modal-form">
+        <h2 class="h2 modal__title">Обратная связь</h2>
+        <form action="" class="modal-form__form">
+            <div class="modal-form__input-line">
+                <label class="modal-form__label">ФИО<br><input type="text"
+                        class="modal-form__input modal-form__input--text"></label>
+                <label class="modal-form__label">Номер телефона<br><input type="tel"
+                        class="modal-form__input modal-form__input--text"></label>
+                <label class="modal-form__label">Комментарий<br><textarea type="text"
+                        class="modal-form__input modal-form__input--textarea"></textarea></label>
+            </div>
+            <label class="modal-form__label modal-form__label--check form__label--check">
+                <input type="checkbox" id="check"
+                    class="modal-form__input modal-form__input--check form__input form__input--check">
+                <div class="modal-form__check--text form__check--text">
+                    Нажимая отправить я соглашаюсь с <a class="modal-form__link" href="#">условиями передачи
+                        информации</a>
+                </div>
+            </label>
+            <button type="submit" class="btn modal-form__btn">Отправить</button>
+        </form>
+    </div>
+</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/libs.js"></script>
 <script src="js/main.js"></script>
