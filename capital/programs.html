@@ -511,7 +511,64 @@
             </p>
         </div>
         <div class="prog-table__btn-block">
-            <a href="#" class="btn prog-table__btn">Выбрать лучшую программу</a>
+            <button data-btn="best-prog" class="btn prog-table__btn">Выбрать лучшую программу</button>
+        </div>
+        <div class="modal modal-3">
+            <div class="modal__close">×</div>
+            <div class="modal__form modal-form">
+                <h2 class="h2 modal__title">Обратная связь</h2>
+                <form action="" class="modal-form__form">
+                    <div class="modal-form__input-line">
+                        <label class="modal-form__label">ФИО<br><input type="text"
+                                class="modal-form__input modal-form__input--text"></label>
+                        <div class="label__line">
+                            <label class="modal-form__label">Номер телефона<br><input type="tel"
+                                    class="modal-form__input modal-form__input--text"></label>
+                            <label class="modal-form__label">Электронная почта<br><input type="email"
+                                    class="modal-form__input modal-form__input--text"></label>
+                        </div>
+                        <div class="label__line">
+                            <label class="modal-form__label">Дата рождения<br><input type="date"
+                                    class="modal-form__input modal-form__input--text"></label>
+                            <label class="modal-form__label">Ваш город<br><select type="email"
+                                    class="modal-form__input modal-form__input--text">
+                                    <option selected disabled value="">&nbsp;</option>
+                                    <option value="br">Брянск</option>
+                                    <option value="or">Орёл</option>
+                                    <option value="bg">Белгород</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="label__line">
+                            <label class="modal-form__label">Сумма<br><input type="number"
+                                    class="modal-form__input modal-form__input--text"></label>
+                            <label class="modal-form__label">На срок<br><select type="email"
+                                    class="modal-form__input modal-form__input--text">
+
+                                    <option selected disabled value="">&nbsp;</option>
+                                    <option value="03">3 мес.</option>
+                                    <option value="04">4 мес.</option>
+                                    <option value="05">5 мес.</option>
+                                    <option value="06">6 мес.</option>
+                                    <option value="07">7 мес.</option>
+                                    <option value="08">8 мес.</option>
+                                    <option value="09">9 мес.</option>
+                                    <option value="10">10 мес.</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                    <label class="modal-form__label modal-form__label--check form__label--check">
+                        <input type="checkbox" id="check"
+                            class="modal-form__input modal-form__input--check form__input form__input--check">
+                        <div class="modal-form__check--text form__check--text">
+                            Нажимая отправить я соглашаюсь с <a class="modal-form__link" href="#">условиями передачи
+                                информации</a>
+                        </div>
+                    </label>
+                    <button type="submit" class="btn modal-form__btn">Отправить</button>
+                </form>
+            </div>
         </div>
     </div>
 </div>
