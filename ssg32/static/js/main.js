@@ -1,0 +1,56 @@
+$(document).ready(function () {
+    svg4everybody({});
+
+    $('[data-btn="feedback"]').click(function () {
+        $('.overlay').show(500);
+        $('.modal').delay(100).animate({
+            top: "50%"
+        }, 500)
+    })
+
+    function closeModal() {
+        $('.modal').animate({
+            top: "-100%"
+        }, 500);
+        $('.overlay').delay(200).hide(500)
+    }
+
+    $('.overlay').click(closeModal);
+    $('.modal__close').click(closeModal)
+
+    var portOwl = $("#portfolio-slider");
+    portOwl.owlCarousel({
+        items: 4,
+        dots: false,
+        nav: false,
+        margin: 20,
+        autoplay: true,
+        autoWidth: false,
+        loop: true
+    });
+    $(".portfolio__next").click(function () {
+        portOwl.trigger("next.owl.carousel");
+    });
+    $(".portfolio__prev").click(function () {
+        portOwl.trigger("prev.owl.carousel");
+    });
+
+
+    $('#hero-slider').owlCarousel({
+        items: 1,
+        dots: true,
+        nav: false,
+        autoplay: true,
+        autoWidth: false,
+        loop: true
+    });
+    $('#content-slider').owlCarousel({
+        items: 1,
+        dots: true,
+        nav: false,
+        autoplay: true,
+        autoWidth: false,
+        loop: true
+    });
+
+});
