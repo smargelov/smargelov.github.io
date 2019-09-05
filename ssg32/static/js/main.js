@@ -1,6 +1,12 @@
 $(document).ready(function () {
     svg4everybody({});
 
+    var servicesContentHeigth = 0
+    $(".services__content").each(function (index, h) {
+        servicesContentHeigth = $(this).height() > servicesContentHeigth ? $(this).height() : servicesContentHeigth
+        $(this).height(servicesContentHeigth)
+    });
+
     $('[data-btn="feedback"]').click(function () {
         $('.overlay').show(500);
         $('.modal').delay(100).animate({
@@ -34,7 +40,6 @@ $(document).ready(function () {
     $(".portfolio__prev").click(function () {
         portOwl.trigger("prev.owl.carousel");
     });
-
 
     $('#hero-slider').owlCarousel({
         items: 1,
