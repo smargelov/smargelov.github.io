@@ -58,4 +58,22 @@ $(document).ready(function () {
         loop: true
     });
 
+    // Phone mask
+
+    $('[data-role="phone"]').focusin(function () {
+        $(this).attr("placeholder", "+7 (___) ___-__-__");
+    });
+    $('[data-role="phone"]').focusout(function () {
+        if ($(this).attr("placeholder") == "+7 (___) ___-__-__") {
+            $(this).attr("placeholder", "Телефон*");
+
+        }
+    });
+    $('[data-role="phone"]').mask("+7 (999) 999-99-99");
+
+    // Office lightbox
+    lightbox.option({
+        showImageNumberLabel: false,
+        wrapAround: true
+    });
 });

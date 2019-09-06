@@ -19,7 +19,7 @@
             <div class="header__top">
                 <div class="wrapper">
                     <div class="header__top-line">
-                        <div class="logo header__logo"><a href="/" title="Главная"> <img src="static/img/general/main-logo.png" alt="ООО “СтройСервисГарант+”"></a></div>
+                        <div class="logo header__logo"><a href="index.html" title="Главная"> <img src="static/img/general/main-logo.png" alt="ООО “СтройСервисГарант+”"></a></div>
                         <nav class="header__nav nav">
                             <ul class="top-menu">
                                 <li class="top-menu__item"><a class="top-menu__link" href="index.html">Главная</a></li>
@@ -30,7 +30,7 @@
                             </ul>
                         </nav>
                         <button class="btn header__btn" data-btn="feedback">Заказать расчёт</button>
-                        <div class="header__phone">+7 980 301-70-71</div>
+                        <div class="header__phone"><a class="header__phone-link" href="tel:+79803017071" title="Телефон"> +7 980 301-70-71</a></div>
                     </div>
                 </div>
             </div>
@@ -87,7 +87,7 @@
             <section class="page-content">
                 <div class="wrapper">
                     <h1 class="h1 page-content__h1">Металлоконструкции</h1>
-                    <article class="page-content__content page-content__content--wide">
+                    <article class="page-content__content">
                         <p>Предлагаем услугу по резке металла по вашим чертежам или образцам. Оформляйте заявку на обсчет или звоните по телефонам – Мы свяжемся и ответим на все ваши вопросы!</p>
                     </article>
                 </div>
@@ -98,7 +98,7 @@
                         <div class="contact-page-form__left">
                             <div class="contact-page-form__subtitle">Обсудим</div>
                             <div class="contact-page-form__title">ваш проект?</div>
-                            <div class="contact-page-form__phone">+7 980 301-70-71</div>
+                            <div class="contact-page-form__phone"><a class="contact-page-form__phone-link" href="tel:+79803017071" title="Телефон">+7 980 301-70-71</a></div>
                             <div class="contact-page-form__btns"><a class="btn contact-page-form__btn" href="mailto:ssg32@bk.ru" title="ssg32@bk.ru">ssg32@bk.ru</a><a class="btn contact-page-form__btn" href="tg://resolve?domain=channal_name" title="Telegram">Telegram</a><a class="btn contact-page-form__btn" href="whatsapp://send/?phone=79803017071" title="WhatsApp">WhatsApp</a><a class="btn contact-page-form__btn" href="viber://chat?number=%2B79803017071" title="Viber">Viber</a>
                             </div>
                             <div class="contact-page-form__address">г. Брянск, ул. Красноармейская, д. 91, оф.404</div>
@@ -107,18 +107,18 @@
                             <form class="contact-page-form__form" action="">
                                 <div class="contact-page-form__form-line">
                                     <input type="text" name="name" placeholder="Имя*" required>
-                                    <input type="email" name="mail" placeholder="E-mail*" required>
+                                    <input type="email" name="mail" placeholder="E-mail">
                                 </div>
                                 <div class="contact-page-form__form-line">
-                                    <input type="text" name="phone" placeholder="Телефон*" required>
-                                    <input type="text" name="company" placeholder="Компания*" required>
+                                    <input type="text" name="phone" placeholder="Телефон*" required data-role="phone">
+                                    <input type="text" name="company" placeholder="Компания">
                                 </div>
                                 <div class="contact-page-form__form-line">
                                     <textarea name="comment" rows="2" placeholder="Сообщение"></textarea>
                                 </div>
                                 <div class="contact-page-form__form-line">
                                     <label>
-                                        <input type="checkbox" name="rules" required>
+                                        <input type="checkbox" name="rules" required checked>
                                         <div class="contact-page-form__rules">Нажимая отправить я соглашаюсь с условиями передачи информации </div>
                                     </label>
                                 </div>
@@ -150,6 +150,9 @@
                             <li class="prefooter__item">Выполнение доставки готовой продукции в место, указанное заказчиком - на склад, на производственное предприятие или конечному потребителю</li>
                             <li class="prefooter__item">Предоставление существенных скидок при оптовых заказах и при постоянном сотрудничестве</li>
                             <li class="prefooter__item">Возможность изготовления пробной единицы продукции для оценки качества и соответствия стандартам</li>
+                            <li class="prefooter__item">Выполнение доставки готовой продукции в место, указанное заказчиком - на склад, на производственное предприятие или конечному потребителю</li>
+                            <li class="prefooter__item">Предоставление существенных скидок при оптовых заказах и при постоянном сотрудничестве</li>
+                            <li class="prefooter__item">Возможность изготовления пробной единицы продукции для оценки качества и соответствия стандартам</li>
                         </ul>
                     </div>
                     <button class="btn btn--bottom" data-btn="feedback">Заказать расчёт</button>
@@ -162,35 +165,35 @@
                     <div class="footer__widget">
                         <h4 class="h4 footer__h4">Металлообработка</h4>
                         <ul class="footer__list">
-                            <li class="services__item">Резка металла</li>
-                            <li class="services__item">Пробивные работы</li>
-                            <li class="services__item">Слесарно-механосборочные работы</li>
-                            <li class="services__item">Металлоконструкции </li>
-                            <li class="services__item">Сварочные работы</li>
-                            <li class="services__item">Резка сегментов</li>
-                            <li class="services__item">Покраска по металлу</li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="Резка металла">Резка металла</a></li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="Пробивные работы">Пробивные работы</a></li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="Слесарно-механосборочные работы">Слесарно-механосборочные работы</a></li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="Металлоконструкции ">Металлоконструкции </a></li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="Сварочные работы">Сварочные работы</a></li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="Резка сегментов">Резка сегментов</a></li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="Покраска по металлу">Покраска по металлу</a></li>
                         </ul>
                     </div>
                     <div class="footer__widget">
                         <h4 class="h4 footer__h4">Механообработка</h4>
                         <ul class="footer__list">
-                            <li class="services__item">Фрезерные работы</li>
-                            <li class="services__item">Токарные работы</li>
-                            <li class="services__item">Карусельная обработка</li>
-                            <li class="services__item">Зубонарезные работы</li>
-                            <li class="services__item">Долбежные работы</li>
-                            <li class="services__item">Шлифовальные работы</li>
-                            <li class="services__item">Сверление отверстий</li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="Фрезерные работы">Фрезерные работы</a></li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="Токарные работы">Токарные работы</a></li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="Карусельная обработка">Карусельная обработка</a></li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="Зубонарезные работы">Зубонарезные работы</a></li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="Долбежные работы">Долбежные работы</a></li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="Шлифовальные работы">Шлифовальные работы</a></li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="Сверление отверстий">Сверление отверстий</a></li>
                         </ul>
                     </div>
                     <div class="footer__widget">
                         <h4 class="h4 footer__h4">Реквизиты</h4>
                         <ul class="footer__list">
-                            <li class="services__item">ООО «СтройСервисГарант»</li>
-                            <li class="services__item">ИНН/КПП 3257038594/325701001</li>
-                            <li class="services__item">ОГРН 1163256051529</li>
-                            <li class="services__item">р/с 1163256051529</li>
-                            <li class="services__item">к/с 1163256051529</li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="ООО «СтройСервисГарант»">ООО «СтройСервисГарант»</a></li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="ИНН/КПП 3257038594/325701001">ИНН/КПП 3257038594/325701001</a></li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="ОГРН 1163256051529">ОГРН 1163256051529</a></li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="р/с 1163256051529">р/с 1163256051529</a></li>
+                            <li class="services__item"><a class="services__link" href="/page.html" title="к/с 1163256051529">к/с 1163256051529</a></li>
                         </ul>
                     </div>
                     <div class="footer__widget">
@@ -243,8 +246,8 @@
                 <div class="modal__title">Обратная связь</div>
                 <form class="modal__form" action="">
                     <input type="text" name="name" required placeholder="Имя*">
-                    <input type="tel" name="phone" required placeholder="Телефон*">
-                    <input type="email" name="email" required placeholder="E-mail*">
+                    <input type="tel" name="phone" required placeholder="Телефон*" data-role="phone">
+                    <input type="email" name="email" placeholder="E-mail">
                     <input type="text" name="subect" placeholder="Сообщение">
                     <div class="contact-page-form__form-line modal__rules">
                         <label>
