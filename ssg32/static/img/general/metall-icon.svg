@@ -1,0 +1,22 @@
+<svg width="143" height="130" viewBox="0 0 143 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M47.8002 45.6886C55.0351 45.6886 60.9002 40.1975 60.9002 33.4239C60.9002 26.6503 55.0351 21.1592 47.8002 21.1592C40.5653 21.1592 34.7002 26.6503 34.7002 33.4239C34.7002 40.1975 40.5653 45.6886 47.8002 45.6886Z" fill="white" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M87.0001 64.3193H58.1001V65.9109H87.0001V64.3193Z" fill="white" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M115.6 42.5986H27.6001V47.982H115.6V42.5986Z" fill="white" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M7.6 109.352V44.3776L1 38.1984V25.6528H27.6V88.4743L7.6 109.352Z" fill="white" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M135.6 111.693V46.8116L142.2 40.6325V28.0869H115.6V90.9084L135.6 111.693Z" fill="white" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M3.2998 129.482H137.8V115.438L115.8 81.8271H28.4998L3.2998 116V129.482Z" fill="white" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M58.1001 0.936035H86.6001V62.9149C86.6005 63.7183 86.2666 64.4903 85.6692 65.0671C85.0718 65.6439 84.2579 65.9801 83.4001 66.0045H61.4001C60.5594 65.9809 59.7599 65.6578 59.1652 65.1009C58.5704 64.5441 58.2252 63.7956 58.2001 63.0085V0.936035H58.1001Z" fill="white" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M74.2002 81.8273V66.0049H70.8502V81.8273H74.2002Z" fill="white" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ray-1" d="M63.9998 76.397H41.2998V77.9886H63.9998V76.397Z" fill="#AE0808"/>
+<path class="ray-2" d="M103.6 76.397H80.8999V77.9886H103.6V76.397Z" fill="#AE0808"/>
+<path class="ray-3" d="M65.4605 82.6084L49.4092 97.6362L50.6113 98.7617L66.6626 83.7339L65.4605 82.6084Z" fill="#AE0808"/>
+<path class="ray-4" d="M77.1479 83.749L93.1992 98.7769L94.4013 97.6514L78.35 82.6236L77.1479 83.749Z" fill="#AE0808"/>
+<path class="ray-5" d="M73.2002 104.484V88.3809H71.5002V104.484H73.2002Z" fill="#AE0808"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="143" height="130" fill="white"/>
+</clipPath>
+</defs>
+</svg>
