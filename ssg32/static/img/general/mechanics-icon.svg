@@ -1,18 +1,42 @@
 <svg width="154" height="121" viewBox="0 0 154 121" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+.thread {
+  animation: thread 0.5s ease infinite
+}
+@keyframes thread {
+  0% {
+    transform: translateY(-6px)
+  }
+  100% {
+    transform: translateY(6px)
+  }
+.thread {
+  animation: thread 0.5s ease infinite
+}
+@keyframes thread {
+  0% {
+    transform: translateY(-6px)
+  }
+  100% {
+    transform: translateY(6px)
+  }
+}
+}
+</style>
 <g clip-path="url(#clip0)">
 <path d="M103.821 8.46338H51.1649V19.0148H103.821V8.46338Z" fill="white" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M111.857 19.0146H43.9749V45.9936H111.857V19.0146Z" fill="white" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M46.618 46.0366H107.839V57.5316C107.839 59.5792 106.837 61.543 105.052 62.9909C103.267 64.4388 100.847 65.2522 98.3229 65.2522H56.1342C53.6104 65.2522 51.1899 64.4388 49.4052 62.9909C47.6206 61.543 46.618 59.5792 46.618 57.5316V46.0366Z" fill="white" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M92.2962 65.252H63.1131V103.717H92.2962V65.252Z" fill="white" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
-<path d="M16.9062 62.0781H10.6678V67.1565H16.9062V62.0781Z" fill="#AE0808"/>
-<path d="M30.1235 44.9214H23.8851V49.9998H30.1235V44.9214Z" fill="#AE0808"/>
-<path d="M40.5913 68.4258H34.3528V73.5042H40.5913V68.4258Z" fill="#AE0808"/>
-<path d="M139.772 69.2837H146.01V64.2053H139.772V69.2837Z" fill="#AE0808"/>
-<path d="M126.66 52.2129H132.899V47.1345H126.66V52.2129Z" fill="#AE0808"/>
-<path d="M116.087 75.7178H122.325V70.6394H116.087V75.7178Z" fill="#AE0808"/>
+<path class="spark-1 el-path" d="M16.9062 62.0781H10.6678V67.1565H16.9062V62.0781Z" fill="#AE0808"/>
+<path class="spark-1 el-path" d="M30.1235 44.9214H23.8851V49.9998H30.1235V44.9214Z" fill="#AE0808"/>
+<path class="spark-1 el-path" d="M40.5913 68.4258H34.3528V73.5042H40.5913V68.4258Z" fill="#AE0808"/>
+<path class="spark-2 el-path" d="M139.772 69.2837H146.01V64.2053H139.772V69.2837Z" fill="#AE0808"/>
+<path class="spark-2 el-path" d="M126.66 52.2129H132.899V47.1345H126.66V52.2129Z" fill="#AE0808"/>
+<path class="spark-2 el-path" d="M116.087 75.7178H122.325V70.6394H116.087V75.7178Z" fill="#AE0808"/>
 <path d="M10.6678 84.2958H40.2739L62.7956 103.769H92.1902L113.232 83.9526H146.856" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
-<path d="M63.1131 80.4354L92.2962 73.5728" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
-<path d="M63.1131 96.3057L92.2962 88.1562" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
+<path class="thread el-path" d="M63.1131 80.4354L92.2962 73.5728" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
+<path class="thread el-path" d="M63.1131 96.3057L92.2962 88.1562" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M0.200012 1.85742H152.143" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M1.25714 121.097H153.2" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
 </g>
