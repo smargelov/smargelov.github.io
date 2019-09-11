@@ -1,41 +1,39 @@
 <svg width="154" height="121" viewBox="0 0 154 121" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
-.thread.path-active {
-  animation: thread 0.5s ease infinite;
+.spark-1.path-active {
+  animation: spark1 0.5s ease infinite
 }
-path.spark-1.path-active {
-	animation: spark1 0.5s ease infinite;
-}
-path.spark-2.path-active {
-	animation: spark2 0.5s ease infinite;
-}
-@keyframes thread {
+@keyframes spark1 {
   0% {
-    transform: translateY(-6px);
+    transform: translateX(5px)
   }
   100% {
-    transform: translateY(6px);
+    transform: translateX(-5px)
   }
 }
 
-  @keyframes spark1 {
-  0% {
-    transform: translateX(5px);
-  }
-  100% {
-    transform: translateX(-5px);
-  }
+.spark-2.path-active {
+  animation: spark2 0.5s ease infinite
 }
 @keyframes spark2 {
   0% {
-    transform: translateX(-5px);
+    transform: translateX(-5px)
   }
   100% {
-    transform: translateX(5px);
+    transform: translateX(5px)
   }
 }
-
-
+.thread.path-active {
+  animation: thread 0.5s ease infinite
+}
+@keyframes thread {
+  0% {
+    transform: translateY(-6px)
+  }
+  100% {
+    transform: translateY(6px)
+  }
+}
 </style>
 <g clip-path="url(#clip0)">
 <path d="M103.821 8.46338H51.1649V19.0148H103.821V8.46338Z" fill="white" stroke="#003672" stroke-width="2" stroke-miterlimit="10"/>
