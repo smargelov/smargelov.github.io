@@ -36,11 +36,16 @@ $(document).ready(function () {
         );
         $(".overlay")
             .delay(200)
-            .hide(500);
+            .fadeOut(500);
     }
 
     $(".overlay").click(closeModal);
     $(".modal__close").click(closeModal);
+    $('body').keydown(function (e) {
+        if (e.keyCode == 27) {
+            closeModal();
+        }
+    });
 
     var portOwl = $("#portfolio-slider");
     portOwl.owlCarousel({
